@@ -1,0 +1,174 @@
+/*body setting*/
+body.background {
+    background-image: url("../Images/white-texture.jpg");
+    background-attachment:fixed;
+}
+
+/*menu Setting*/
+#thislink{
+    text-decoration:none;
+}
+
+th.name{
+    width:35%;
+    Font-Family:'courier new';
+    text-align:left;
+    padding-left:100px;
+}
+table.menu{
+    width: 100%;
+    text-align: center;
+    /*border: solid;*/
+}
+th.menu{
+    width:16.25%;
+}
+a.menu{
+    font-family:'courier new';
+    color:black
+}
+a.menu:hover{
+    color:rgba(121, 77, 11, 0.705)
+}
+
+hr.Menu{
+    margin-top: 30px;
+    border-top: 5px double black;
+}
+
+/* Left bar setting*/
+table.MainTable{
+    /*border:solid;*/
+    width: 100%;
+}
+
+td.image{
+    width:30%;
+    padding-bottom:250px;
+    vertical-align: top;
+}
+
+img.ZacImage{
+    width: 500px;
+    height: 1200px;
+}
+
+/* Index page setting*/
+td.content{
+    padding-left: 150px;
+    padding-right: 50px;
+    padding-top: 50px;
+    vertical-align: top;
+}
+p.content{
+    font-family:'courier new';
+    font-size:20px;
+    font-weight:bold;
+}
+
+/* Education page Setting */
+td.main {
+    /*text-align: center;*/
+    font-family: 'Courier New';
+    font-size: 30px;
+    padding-top: 50px;
+    vertical-align: top;
+}
+
+tr.education{
+    vertical-align: top;
+}
+
+h1.education{
+    text-align: center;
+}
+
+p.para1 {
+    font-size: 35px;
+}
+
+/* Work experience page Setting */
+tr.WorkExperience{
+    vertical-align: top;
+}
+
+h1.WorkExperience{
+    font-size: 50px;
+}
+
+table.WorkExperience{
+    margin-top: 50px;
+}
+
+ul.WorkExperience{
+    text-align: left;
+    font-size: 30px;
+    padding-left: 80px;
+}
+
+/* Skills page Setting*/
+tr.z{
+    vertical-align: top;
+}
+
+th.head{
+    font-family: Times New Roman;
+    padding-top: 50px;
+    vertical-align: top;
+    font-size:30px;
+}
+
+img.skills{
+    width: 60%;
+    height: 100%;
+}
+
+th.zp {
+    text-align:left;
+}
+
+.LOS{
+    text-align:left;
+    font-family:courier new;
+    font-size:27px;
+    padding-left: 40px;
+}
+
+/* Contract page Setting*/
+table.Contact{
+    /*width: 100%;*/
+    border-spacing: 10px 10px;
+    padding-left: 50px;
+}
+
+tr.ContactMain{
+    vertical-align: top;
+}
+
+th.ContactMain{
+    padding-top: 50px;
+    font-size: 30px;
+}
+
+li.ContactMain{
+    font-family:'courier new';
+    font-size:35px;
+    font-weight:bold;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+span.ContactMain{
+    border-bottom: 2px solid #b0e0e6;
+    box-shadow: inset 0 -2px 0 #b0e0e6;
+}
+span.ContactMain:hover{
+    background-color: blanchedalmond;
+    border-bottom: revert;
+    box-shadow: revert;
+}
+
+img.ContactMain{
+    width: 40px;
+    vertical-align: middle;
+}
