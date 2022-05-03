@@ -5,6 +5,12 @@ import java.util.Scanner;
 public class Identifier {
     public static void main(String[] args) {
 
+        //Conventions
+        //package name needs to be all small letters
+        //Class name needs to be CamelCase -> Start with capital and continue by small letters
+        //method names needs to be all small letters
+        //the identifiers are all small letters(there are some exception)
+
         //identifiers
         //Rule for identifiers -> you cannot have reserved words
         int sum = 1 + 2;
