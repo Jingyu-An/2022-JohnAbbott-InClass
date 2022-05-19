@@ -18,8 +18,8 @@ public class UtilizeCellPhones {
 
         System.out.println();
         System.out.println("The changed price of c1 is " + c1.getPrice() + "$.");
-        System.out.println("The changed brand of c2 is " + c1.getBrand());
-        System.out.println("The changed serial number of c3 is " + c1.getSerialNumber());
+        System.out.println("The changed brand of c2 is " + c2.getBrand());
+        System.out.println("The changed serial number of c3 is " + c3.getSerialNumber());
 
         System.out.println("\n=======Compare c1 and c2=======");
         c1.equals(c2);
