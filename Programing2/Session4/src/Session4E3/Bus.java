@@ -1,4 +1,4 @@
-package Session4E1;
+package Session4E3;
 
 public class Bus extends Vehicle{
 
@@ -57,6 +57,26 @@ private int passengerCapacity;
 		passengerCapacity = pc;;
 	}
 	
+	public void setPrice(double pr)
+	{
+//		if(pr < getPrice())
+//			System.out.println("The price of this bus will be reduced from " + getPrice() + "$ to " + pr + "$.");
+//		else if (pr > getPrice())
+//			System.out.println("The price of this bus will be increased from " + getPrice() + "$ to " + pr + "$.");
+//		else
+//			System.out.println("No change will be applied to this price of the bus.");
+//		
+		super.setPrice(pr);		
+		
+	}
+	public double getPrice() {
+		
+		String s = this.getClass().toString();
+		System.out.println("exceuting getprice from  " + s);
+		//return price;
+		return price;
+	}
+	
 	public String toString()
 	{
 		return "This Bus has " + getNumOfDoors() + " doors price is: " + getPrice() +"$.Thecapacity is " 
@@ -64,18 +84,7 @@ private int passengerCapacity;
 	}
 	
 	// Override the setPrice() method
-	public void setPrice(double pr)
-	{
-		if(pr < getPrice())
-			System.out.println("The price of this bus will be reduced from " + getPrice() + "$ to " + pr + "$.");
-		else if (pr > getPrice())
-			System.out.println("The price of this bus will be increased from " + getPrice() + "$ to " + pr + "$.");
-		else
-			System.out.println("No change will be applied to this price of the bus.");
-		
-		super.setPrice(pr);		
-		
-	}
+	
 	
 	
 //	public boolean equals(Bus b) {

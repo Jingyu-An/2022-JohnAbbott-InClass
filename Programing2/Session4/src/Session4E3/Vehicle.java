@@ -1,10 +1,9 @@
-package Session4E1;
+package Session4E3;
 
 public class Vehicle {
 	
-		private int numOfDoors;
-		private double price;
-		protected static int i = 12;
+		protected int numOfDoors;
+		protected double price;
 		
 		
 		public Vehicle()	// default constructor 
@@ -43,6 +42,8 @@ public class Vehicle {
 		
 		public double getPrice()
 		{
+			String s = this.getClass().toString();
+			System.out.println("exceuting getprice from " + s);
 			return price;
 		}
 		
@@ -56,6 +57,23 @@ public class Vehicle {
 			return "This Vehicle has " + numOfDoors + " doors and it price is " + price + "$.";
 		}
 		
+		public boolean isCheaper(Vehicle v) {
+			
+			String s1 = this.getClass().toString();
+			String s2 = v.getClass().toString();
+			
+			if(getPrice() < v.getPrice()) {
+				System.out.println(" the price of " + s1 + "is cheper than " + s2);
+				return true;
+			}
+			else {
+				System.out.println(" the price of " + s1 + "is more expensive than " + s2);
+				return false;
+			}
+			
+		}
+		
+		
 //		
 		public boolean equals(Object x) {
 			
@@ -66,4 +84,6 @@ public class Vehicle {
 				return (this.numOfDoors == v.numOfDoors && this.price ==v.price);
 			}
 		}
+		
+		
 }

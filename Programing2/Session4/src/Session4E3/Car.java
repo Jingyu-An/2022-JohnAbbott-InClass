@@ -1,4 +1,4 @@
-package Session4E1;
+package Session4E3;
 
 public class Car extends Vehicle{
 private int numOfSeats;
@@ -36,6 +36,14 @@ private int numOfSeats;
 	public void setNumOfSeats(int ns)
 	{
 		numOfSeats = ns;;
+	}
+	
+	public double getPrice() {
+		
+		String s = this.getClass().toString();
+		System.out.println("exceuting getprice from " + s);
+		//return price;
+		return price;
 	}
 	
 	public String toString()

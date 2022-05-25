@@ -1,15 +1,14 @@
-package Session4E1;
+package Session4E5;
 
 public class Vehicle {
 	
-		private int numOfDoors;
-		private double price;
-		protected static int i = 12;
+		protected int numOfDoors;
+		protected double price;
 		
 		
 		public Vehicle()	// default constructor 
 		{
-			System.out.println("\nCreating a vehicle object using default constructor ....");
+		//	System.out.println("\nCreating a vehicle object using default constructor ....");
 			
 			numOfDoors = 4;
 			price = 10000;
@@ -17,7 +16,7 @@ public class Vehicle {
 		
 		public Vehicle(int nd, double pr)	
 		{
-			System.out.println("\nCreating a vehicle object using parameterized constructor ....");
+		//	System.out.println("\nCreating a vehicle object using parameterized constructor ....");
 			
 			numOfDoors = nd;
 			price = pr;
@@ -25,7 +24,7 @@ public class Vehicle {
 		
 		public Vehicle(Vehicle vec)	// copy constructor 
 		{
-			System.out.println("\nCreating a vehicle object using copy constructor ....");
+		//	System.out.println("\nCreating a vehicle object using copy constructor ....");
 			
 			numOfDoors = vec.numOfDoors;
 			price = vec.price;
@@ -43,6 +42,8 @@ public class Vehicle {
 		
 		public double getPrice()
 		{
+			String s = this.getClass().toString();
+			//System.out.println("exceuting getprice from " + s);
 			return price;
 		}
 		
@@ -56,6 +57,28 @@ public class Vehicle {
 			return "This Vehicle has " + numOfDoors + " doors and it price is " + price + "$.";
 		}
 		
+		public boolean isCheaper(Vehicle v) {
+			
+			String s1 = this.getClass().toString();
+			String s2 = v.getClass().toString();
+			
+			if(getPrice() < v.getPrice()) {
+				System.out.println(" the price of " + s1 + "is cheper than " + s2);
+				return true;
+			}
+			else {
+				System.out.println(" the price of " + s1 + "is more expensive than " + s2);
+				return false;
+			}
+			
+		}
+		
+		public Vehicle clone() {
+			
+			return new Vehicle(this);
+		}
+		
+		
 //		
 		public boolean equals(Object x) {
 			
@@ -66,4 +89,6 @@ public class Vehicle {
 				return (this.numOfDoors == v.numOfDoors && this.price ==v.price);
 			}
 		}
+		
+		
 }

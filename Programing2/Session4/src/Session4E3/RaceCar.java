@@ -1,4 +1,4 @@
-package Session4E1;
+package Session4E3;
 
 public class RaceCar extends SportCar{
 private int horsePower;
@@ -39,6 +39,14 @@ private int horsePower;
 	public void setHorsePower(int hp)
 	{
 		horsePower = hp;
+	}
+	
+	public double getPrice() {
+		
+		String s = this.getClass().toString();
+		System.out.println("exceuting getprice from " + s);
+		//return price;
+		return price;
 	}
 	
 	public String toString()

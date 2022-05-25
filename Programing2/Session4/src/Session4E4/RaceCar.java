@@ -1,4 +1,4 @@
-package Session4E1;
+package Session4E4;
 
 public class RaceCar extends SportCar{
 private int horsePower;
@@ -6,7 +6,7 @@ private int horsePower;
 	// Constructors
 	public RaceCar()	// default constructor 
 	{
-		System.out.println("Creating a race car object using default constructor ....");
+	//	System.out.println("Creating a race car object using default constructor ....");
 		
 		horsePower = 400;
 	}
@@ -14,13 +14,13 @@ private int horsePower;
 	public RaceCar(int nd, double pr, int ns, double gc, int hp)	
 	{
 		super(nd, pr, ns, gc);
-		System.out.println("Creating a race car object using parameterized constructor ....");
+	//	System.out.println("Creating a race car object using parameterized constructor ....");
 		horsePower = hp;
 	}
 	
 	public RaceCar(RaceCar rc)	
 	{
-		System.out.println("Creating a race car object using copy constructor ....");
+	//	System.out.println("Creating a race car object using copy constructor ....");
 		
 		setNumOfDoors(rc.getNumOfDoors());
 		setPrice(rc.getPrice());
@@ -39,6 +39,14 @@ private int horsePower;
 	public void setHorsePower(int hp)
 	{
 		horsePower = hp;
+	}
+	
+	public double getPrice() {
+		
+		String s = this.getClass().toString();
+		System.out.println("exceuting getprice from " + s);
+		//return price;
+		return price;
 	}
 	
 	public String toString()

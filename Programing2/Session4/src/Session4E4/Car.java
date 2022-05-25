@@ -1,4 +1,4 @@
-package Session4E1;
+package Session4E4;
 
 public class Car extends Vehicle{
 private int numOfSeats;
@@ -14,14 +14,14 @@ private int numOfSeats;
 	public Car(int nd, double pr, int ns)	
 	{
 		super(nd, pr);
-		System.out.println("Creating a car object using parameterized constructor ....");
+		//System.out.println("Creating a car object using parameterized constructor ....");
 		
 		numOfSeats = ns;
 	}
 	
 	public Car(Car c)	
 	{
-		System.out.println("Creating a car object using copy constructor ....");
+	//	System.out.println("Creating a car object using copy constructor ....");
 		setNumOfDoors(c.getNumOfDoors());
 		setPrice(c.getPrice());
 		numOfSeats = c.numOfSeats;
@@ -36,6 +36,14 @@ private int numOfSeats;
 	public void setNumOfSeats(int ns)
 	{
 		numOfSeats = ns;;
+	}
+	
+	public double getPrice() {
+		
+		String s = this.getClass().toString();
+		System.out.println("exceuting getprice from " + s);
+		//return price;
+		return price;
 	}
 	
 	public String toString()

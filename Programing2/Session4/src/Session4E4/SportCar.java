@@ -1,4 +1,4 @@
-package Session4E1;
+package Session4E4;
 
 public class SportCar extends Car{
 private double gasConsumption;
@@ -6,7 +6,7 @@ private double gasConsumption;
 	// Constructors
 	public SportCar()	// default constructor 
 	{
-		System.out.println("Creating a sport car object using default constructor ....");
+	//	System.out.println("Creating a sport car object using default constructor ....");
 		
 		gasConsumption = 4;
 	}
@@ -14,13 +14,13 @@ private double gasConsumption;
 	public SportCar(int nd, double pr, int ns, double gc)	
 	{
 		super(nd, pr, ns);
-		System.out.println("Creating a sport car object using parameterized constructor ....");
+	//	System.out.println("Creating a sport car object using parameterized constructor ....");
 		gasConsumption = gc;
 	}
 	
 	public SportCar(SportCar sc)	
 	{
-		System.out.println("Creating a sport car object using copy constructor ....");
+	//	System.out.println("Creating a sport car object using copy constructor ....");
 		
 		setNumOfDoors(sc.getNumOfDoors());
 		setPrice(sc.getPrice());
@@ -44,6 +44,13 @@ private double gasConsumption;
 	{
 		return "This Sport Car has " + getNumOfDoors() + " doors price is: " + getPrice() +
 		"$.numberofseats is " + getNumOfSeats() + "gas consumption is " + gasConsumption; 
+	}
+	public double getPrice() {
+		
+		String s = this.getClass().toString();//
+		System.out.println("exceuting getprice from " + s);
+		//return price;
+		return price;
 	}
 	
 	

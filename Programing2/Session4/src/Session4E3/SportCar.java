@@ -1,4 +1,4 @@
-package Session4E1;
+package Session4E3;
 
 public class SportCar extends Car{
 private double gasConsumption;
@@ -44,6 +44,13 @@ private double gasConsumption;
 	{
 		return "This Sport Car has " + getNumOfDoors() + " doors price is: " + getPrice() +
 		"$.numberofseats is " + getNumOfSeats() + "gas consumption is " + gasConsumption; 
+	}
+	public double getPrice() {
+		
+		String s = this.getClass().toString();//
+		System.out.println("exceuting getprice from " + s);
+		//return price;
+		return price;
 	}
 	
 	
