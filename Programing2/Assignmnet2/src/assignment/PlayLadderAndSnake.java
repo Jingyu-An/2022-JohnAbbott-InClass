@@ -63,6 +63,7 @@ public class PlayLadderAndSnake {
 
         boolean isFinish = false;
 
+
         while (!isFinish) { //play game until some player reaches 100
 
             int checkFinish = 0; //check 100
@@ -80,6 +81,7 @@ public class PlayLadderAndSnake {
             if (checkFinish != 100)
                 System.out.println("Game not over; flipping again ");
         }
+
 
         System.out.println("\n==============================================");
         System.out.println("==== The game is over. See you next time. ====");
@@ -240,7 +242,7 @@ public class PlayLadderAndSnake {
 
                 /* Preserve third, last player's order of play */
                 players.get(2).setOrder(0);
-                players.get(3).setOrder(0);
+                players.get(3).setOrder(-1);
 
                 System.out.println("A tie was achieved between " + players.get(0) + " and " +
                         players.get(1) + ". Attempting to break the tie");
@@ -281,7 +283,7 @@ public class PlayLadderAndSnake {
             while (players.get(2).equals(players.get(3))) { //re-call flipDice() and re-sort until two players' order is different.
 
                 /* Preserve first, second player's order of play */
-                players.get(0).setOrder(7);
+                players.get(0).setOrder(8);
                 players.get(1).setOrder(7);
 
                 System.out.println("A tie was achieved between " + players.get(2) + " and " +
