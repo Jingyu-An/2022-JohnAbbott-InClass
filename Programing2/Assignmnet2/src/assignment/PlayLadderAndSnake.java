@@ -8,11 +8,12 @@ package assignment;
 * -------------------------
 * */
 
+import java.io.IOException;
 import java.util.*;
 
 public class PlayLadderAndSnake {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
 
         Scanner input = new Scanner(System.in);
 
@@ -61,8 +62,11 @@ public class PlayLadderAndSnake {
         }
         System.out.println();
 
-        boolean isFinish = false;
+        //pause for checking order of playing
+        System.out.print("Press Enter to start the game.");
+        System.in.read();
 
+        boolean isFinish = false;
 
         while (!isFinish) { //play game until some player reaches 100
 
@@ -241,8 +245,10 @@ public class PlayLadderAndSnake {
             while (players.get(0).equals(players.get(1))){ //re-call flipDice() and re-sort until two players' order is different.
 
                 /* Preserve third, last player's order of play */
-                players.get(2).setOrder(0);
-                players.get(3).setOrder(-1);
+                if (players.get(2).getOrder() != players.get(3).getOrder()) {
+                    players.get(2).setOrder(0);
+                    players.get(3).setOrder(-1);
+                }
 
                 System.out.println("A tie was achieved between " + players.get(0) + " and " +
                         players.get(1) + ". Attempting to break the tie");
