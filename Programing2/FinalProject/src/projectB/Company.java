@@ -19,7 +19,7 @@ public class Company {
 
         PrintWriter printWriter = null;
         try {
-            printWriter = new PrintWriter(new FileOutputStream("repertory.txt"));
+            printWriter = new PrintWriter(new FileOutputStream("ProjectBRepertory.txt"));
         } catch (FileNotFoundException e) {
             System.out.println("Couldn't find file.");
             System.exit(0);
@@ -45,7 +45,7 @@ public class Company {
 
                 case 1 :
                     try {
-                        readFile = new Scanner(new FileInputStream("repertory.txt"));
+                        readFile = new Scanner(new FileInputStream("ProjectBRepertory.txt"));
                     } catch (FileNotFoundException e) {
                         System.out.println("Couldn't find file.");
                         System.exit(0);
@@ -56,7 +56,7 @@ public class Company {
 
                 case 2 :
                     try {
-                        printWriter = new PrintWriter(new FileOutputStream("repertory.txt", true));
+                        printWriter = new PrintWriter(new FileOutputStream("ProjectBRepertory.txt", true));
                     } catch (FileNotFoundException e) {
                         System.out.println("Couldn't find file.");
                         System.exit(0);
@@ -152,12 +152,12 @@ public class Company {
         int day = input.nextInt();
 
         for (Employee employee : employees) {
-            if (employee.getHiredDate().getYear() > year)
+            if (employee.getHiredDate().getYear() < year)
                 System.out.println(employee);
-            else if (employee.getHiredDate().getYear() == year && employee.getHiredDate().getMonth() > month)
+            else if (employee.getHiredDate().getYear() == year && employee.getHiredDate().getMonth() < month)
                 System.out.println(employee);
             else if (employee.getHiredDate().getYear() == year && employee.getHiredDate().getMonth() == month &&
-            employee.getHiredDate().getDay() > day)
+            employee.getHiredDate().getDay() <= day)
                 System.out.println(employee);
         }
 

@@ -8,6 +8,10 @@ import projectA.helicopter.Quadcopter;
 import projectA.multirotor.Multirotor;
 import projectA.uav.UAV;
 
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintWriter;
+
 public class TestPart1 {
 
     public static void main(String[] args) {
@@ -90,26 +94,77 @@ public class TestPart1 {
         checkEquals(uav2,uav3);
         checkEquals(quadcopter1,quadcopter3);
         checkEquals(helicopter1,helicopter3);
+        checkEquals(helicopter3,agriculturalDrone3);
 
-        UAV[] arrUAV1 = new UAV[20];
-        arrUAV1[0] = new UAV();
-        arrUAV1[1] = new AgriculturalDrone();
-        arrUAV1[2] = new MAV();
-        arrUAV1[3] = new UAV(23,5000);
-        arrUAV1[4] = new AgriculturalDrone(21,3500,"Canada", 4);
-        arrUAV1[5] = new MAV(11, 1000, "S1", 20);
-        arrUAV1[6] = new AgriculturalDrone(11, 52344, "Apple", 6);
+        Object[] arrFlying1 = new Object[17];
+        arrFlying1[0] = airplane1;
+        arrFlying1[1] = airplane2;
+        arrFlying1[2] = mav3;
+        arrFlying1[3] = helicopter1;
+        arrFlying1[4] = helicopter2;
+        arrFlying1[5] = agriculturalDrone1;
+        arrFlying1[6] = quadcopter1;
+        arrFlying1[7] = quadcopter2;
+        arrFlying1[8] = uav1;
+        arrFlying1[9] = multirotor1;
+        arrFlying1[10] = multirotor2;
+        arrFlying1[11] = new AgriculturalDrone(10, 1000, "Apple", 5);
+        arrFlying1[12] = uav3;
+        arrFlying1[13] = airplane3;
+        arrFlying1[14] = mav2;
+        arrFlying1[15] = new MAV(12,50000,"Power",12);
+        arrFlying1[16] = agriculturalDrone3;
 
-        UAV[] arrUAV2 = new UAV[15];
-        UAV[] arrUAV3 = new UAV[5];
-        arrUAV3[0] = new AgriculturalDrone();
+        Object[] arrFlying2 = new Object[12];
+        arrFlying2[0] = airplane1;
+        arrFlying2[1] = airplane2;
+        arrFlying2[2] = airplane3;
+        arrFlying2[3] = helicopter1;
+        arrFlying2[4] = helicopter2;
+        arrFlying2[5] = helicopter3;
+        arrFlying2[6] = quadcopter1;
+        arrFlying2[7] = quadcopter2;
+        arrFlying2[8] = quadcopter3;
+        arrFlying2[9] = multirotor1;
+        arrFlying2[10] = multirotor2;
+        arrFlying2[11] = multirotor3;
+
+        PrintWriter printWriter = null;
+        try {
+            printWriter = new PrintWriter(new FileOutputStream("ProjectAFindUAV1.txt"));
+        } catch (FileNotFoundException e) {
+            System.out.println("Couldn't find file.");
+            System.exit(0);
+        }
+
+        printWriter.println("====== Array Flying1 =====");
+        for (Object o: arrFlying1) {
+            printWriter.println(o);
+        }
 
         System.out.println();
-        findLeastAndMostExpensiveUAV(arrUAV1);
+        System.out.println("====== Find Least and Most Expensive UAV ======");
+        findLeastAndMostExpensiveUAV(arrFlying1, printWriter);
+
+        printWriter.close();
+
+        try {
+            printWriter = new PrintWriter(new FileOutputStream("ProjectAFindUAV2.txt"));
+        } catch (FileNotFoundException e) {
+            System.out.println("Couldn't find file.");
+            System.exit(0);
+        }
+
+        printWriter.println("====== Array Flying2 =====");
+        for (Object o: arrFlying2) {
+            printWriter.println(o);
+        }
+
         System.out.println();
-        findLeastAndMostExpensiveUAV(arrUAV2);
-        System.out.println();
-        findLeastAndMostExpensiveUAV(arrUAV3);
+        System.out.println("====== Find Least and Most Expensive UAV ======");
+        findLeastAndMostExpensiveUAV(arrFlying2, printWriter);
+
+        printWriter.close();
     }
 
     public static void checkEquals(Object o1, Object o2) {
@@ -119,33 +174,54 @@ public class TestPart1 {
             System.out.println("These are different");
     }
 
-    public static void findLeastAndMostExpensiveUAV(UAV[] arr) {
+    public static void findLeastAndMostExpensiveUAV(Object[] arr, PrintWriter printWriter) {
 
-        UAV least = arr[0];
-        UAV most = arr[0];
+        UAV least = null;
+        UAV most = null;
+        UAV temp = null;
+
+        System.out.println("\n\n=================================================");
+        printWriter.println("\n\n=================================================");
 
         if (arr[0] == null) {
-            System.out.println("There is no UAV");
-            return;
-        }
-
-        if (arr[1] ==null){
-            System.out.println("=== Least and Most expensive UAV are same ==");
-            System.out.println(arr[0]);
+            System.out.println("There is no Flying");
+            printWriter.println("There is no Flying");
             return;
         }
 
         for (int i = 0; i < arr.length-1; i++) {
             if (arr[i] == null)
                 break;
-            if (least.getPrice() > arr[i].getPrice())
-                least = arr[i];
-            else if (most.getPrice() < arr[i].getPrice())
-                most = arr[i];
+            if (arr[i] instanceof UAV) {
+                temp = (UAV) arr[i];
+                if (least == null) {
+                    least = temp;
+                    most = temp;
+                }
+                if (least.getPrice() > temp.getPrice())
+                    least = temp;
+                else if (most.getPrice() < temp.getPrice())
+                    most = temp;
+            }
         }
-        System.out.println("======== Least expensive UAV ========");
-        System.out.println(least);
-        System.out.println("======== Most expensive UAV  ========");
-        System.out.println(most);
+        if (least == null){
+            System.out.println("==== There is no UAV ====");
+            printWriter.println("==== There is no UAV ====");
+        } else if (least.equals(most)){
+            System.out.println("==== Least and Most expensive UAV are the same ====");
+            System.out.println(least);
+            printWriter.println("==== Least and Most expensive UAV are the same ====");
+            printWriter.println(least);
+        } else {
+            System.out.println("======== Least expensive UAV ========");
+            System.out.println(least);
+            System.out.println("======== Most expensive UAV  ========");
+            System.out.println(most);
+
+            printWriter.println("======== Least expensive UAV ========");
+            printWriter.println(least);
+            printWriter.println("======== Most expensive UAV  ========");
+            printWriter.println(most);
+        }
     }
 }

@@ -1,5 +1,0 @@
-Name : King 			ID : 10000			Hire Date : 7/1/2000		Position : CEO
-Name : Queen			ID : 10001			Hire Date : 12/5/2011		Position : Manager
-Name : Princess			ID : 10002			Hire Date : 12/12/2016		Position : Lawyer
-Name : Prince			ID : 10003			Hire Date : 7/7/2018		Position : Engineer
-Name : Knight			ID : 10004			Hire Date : 1/1/1900		Position : Fighter
