@@ -1,0 +1,29 @@
+====== Array Flying2 =====
+class projectA.airplane.Airplane
+Brand : JingyuAirplane, Price : 200000.0$, HorsePower : 10
+class projectA.airplane.Airplane
+Brand : Canada, Price : 4000000.0$, HorsePower : 5
+class projectA.airplane.Airplane
+Brand : JingyuAirplane, Price : 200000.0$, HorsePower : 10
+class projectA.helicopter.Helicopter
+Brand : JingyuAirplane, Price : 200000.0$, HorsePower : 10, Number Of Cylinders : 5, Creation Year : 2020, Passenger Capacity : 5
+class projectA.helicopter.Helicopter
+Brand : Cnada, Price : 2400000.0$, HorsePower : 4, Number Of Cylinders : 6, Creation Year : 2000, Passenger Capacity : 5
+class projectA.helicopter.Helicopter
+Brand : JingyuAirplane, Price : 200000.0$, HorsePower : 10, Number Of Cylinders : 5, Creation Year : 2020, Passenger Capacity : 5
+class projectA.helicopter.Quadcopter
+Brand : JingyuAirplane, Price : 200000.0$, HorsePower : 10, Number Of Cylinders : 5, Creation Year : 2020, Passenger Capacity : 5, Maximum Flying Speed : 100Km/h
+class projectA.helicopter.Quadcopter
+Brand : Canada, Price : 8000000.0$, HorsePower : 5, Number Of Cylinders : 5, Creation Year : 2019, Passenger Capacity : 4, Maximum Flying Speed : 500Km/h
+class projectA.helicopter.Quadcopter
+Brand : Canada, Price : 8000000.0$, HorsePower : 5, Number Of Cylinders : 5, Creation Year : 2019, Passenger Capacity : 4, Maximum Flying Speed : 500Km/h
+class projectA.multirotor.Multirotor
+Brand : JingyuAirplane, Price : 200000.0$, HorsePower : 10, Number Of Cylinders : 5, Creation Year : 2020, Passenger Capacity : 5, Number Of Rotors : 6
+class projectA.multirotor.Multirotor
+Brand : Canada, Price : 9000000.0$, HorsePower : 7, Number Of Cylinders : 8, Creation Year : 2021, Passenger Capacity : 5, Number Of Rotors : 6
+class projectA.multirotor.Multirotor
+Brand : Canada, Price : 9000000.0$, HorsePower : 7, Number Of Cylinders : 8, Creation Year : 2021, Passenger Capacity : 5, Number Of Rotors : 6
+
+
+=================================================
+==== There is no UAV ====

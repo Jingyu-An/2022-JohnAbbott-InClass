@@ -1,0 +1,12 @@
+Module References
+=================
+• Description of normalization - https://docs.microsoft.com/en-us/office/troubleshoot/access/database-normalization-description
+
+• Database Normalization Explained - https://towardsdatascience.com/database-normalization-explained-53e60a494495
+
+• Normalization - Oracle FAQ - https://www.orafaq.com/wiki/Normalization
+
+•  Normalization of Database - https://www.studytonight.com/dbms/database-normalization.php
+
+
+

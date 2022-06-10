@@ -1,0 +1,14 @@
+Module References
+=================
+• Basic Information about Databases - https://docs.microsoft.com/en-us/sql/relational-databases/databases/databases?view=sql-server-ver15
+
+• Create Database - https://docs.microsoft.com/en-us/sql/t-sql/statements/create-database-transact-sql?f1url=%3FappId%3DDev15IDEF1%26l%3DEN-US%26k%3Dk(create_database_TSQL)%3Bk(sql13.swb.tsqlresults.f1)%3Bk(sql13.swb.tsqlquery.f1)%3Bk(MiscellaneousFilesProject)%3Bk(DevLang-TSQL)%26rd%3Dtrue&view=sql-server-ver15&tabs=sqlpool
+
+• Database Files and Filegroups - https://docs.microsoft.com/en-us/sql/relational-databases/databases/database-files-and-filegroups?view=sql-server-ver15
+
+• The Transaction Log - https://docs.microsoft.com/en-us/sql/relational-databases/logs/the-transaction-log-sql-server?view=sql-server-ver15
+
+• Create Schema - https://docs.microsoft.com/en-us/sql/t-sql/statements/create-schema-transact-sql?f1url=%3FappId%3DDev15IDEF1%26l%3DEN-US%26k%3Dk(create_schema_TSQL);k(sql13.swb.tsqlresults.f1);k(sql13.swb.tsqlquery.f1);k(MiscellaneousFilesProject);k(DevLang-TSQL)%26rd%3Dtrue&view=sql-server-ver15
+
+• Create a database schema - https://docs.microsoft.com/en-us/sql/relational-databases/security/authentication-access/create-a-database-schema?view=sql-server-ver15
+

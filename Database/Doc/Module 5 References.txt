@@ -1,0 +1,21 @@
+Module References
+=================
+
+• Working with User-Defined Types in SQL Server - https://docs.microsoft.com/en-us/sql/relational-databases/clr-integration-database-objects-user-defined-types/working-with-user-defined-types-in-sql-server?view=sql-server-ver15
+
+• Create User-Defined Type - https://docs.microsoft.com/en-us/sql/t-sql/statements/create-type-transact-sql?f1url=%3FappId%3DDev15IDEF1%26l%3DEN-US%26k%3Dk(create_type_TSQL);k(sql13.swb.tsqlresults.f1);k(sql13.swb.tsqlquery.f1);k(MiscellaneousFilesProject);k(DevLang-TSQL)%26rd%3Dtrue&view=sql-server-ver15
+
+• Data types (Transact-SQL) - https://docs.microsoft.com/en-us/sql/t-sql/data-types/data-types-transact-sql?view=sql-server-ver15
+
+• Create T-SQL Tables - https://docs.microsoft.com/en-us/sql/t-sql/statements/create-table-sql-graph?f1url=%3FappId%3DDev15IDEF1%26l%3DEN-US%26k%3Dk(create_table_TSQL);k(sql13.swb.tsqlresults.f1);k(sql13.swb.tsqlquery.f1);k(MiscellaneousFilesProject);k(DevLang-TSQL)%26rd%3Dtrue&view=sql-server-ver15
+
+• Oracle Database Data Types - https://docs.oracle.com/database/121/SQLRF/sql_elements001.htm#SQLRF0021
+
+• Oracle Database User-Defined Datatypes - https://docs.oracle.com/cd/A91034_01/DOC/server.901/a88856/c14ordb.htm
+
+• Creating Oracle Tables - https://docs.oracle.com/cd/B28359_01/server.111/b28310/tables003.htm#ADMIN01503 
+
+• MySQL Data Types - https://dev.mysql.com/doc/refman/8.0/en/data-types.html
+
+• Creating a Table in MySQL - https://dev.mysql.com/doc/refman/8.0/en/creating-tables.html
+

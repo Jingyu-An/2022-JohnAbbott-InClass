@@ -1,0 +1,10 @@
+Module References
+=================
+• Database design basics - https://support.microsoft.com/en-us/office/database-design-basics-eb2159cf-1e30-401a-8084-bd4f9c9ca1f5
+
+• How to design database? - https://www.learncomputerscienceonline.com/how-to-design-database/
+
+• Database Design 2nd Edition - https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2014/12/CS403-1.10-Database-Design-2nd-Edition-CCBY.pdf
+
+
+

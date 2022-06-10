@@ -1,0 +1,44 @@
+====== Array Flying1 =====
+class projectA.airplane.Airplane
+Brand : JingyuAirplane, Price : 200000.0$, HorsePower : 10
+class projectA.airplane.Airplane
+Brand : Canada, Price : 4000000.0$, HorsePower : 5
+class projectA.drones.MAV
+Weight : 9.0Kg, Price : 3500.0$, Model : Canada, Size : 20.0cm
+class projectA.helicopter.Helicopter
+Brand : JingyuAirplane, Price : 200000.0$, HorsePower : 10, Number Of Cylinders : 5, Creation Year : 2020, Passenger Capacity : 5
+class projectA.helicopter.Helicopter
+Brand : Cnada, Price : 2400000.0$, HorsePower : 4, Number Of Cylinders : 6, Creation Year : 2000, Passenger Capacity : 5
+class projectA.drones.AgriculturalDrone
+Weight : 10.0Kg, Price : 2000.0$, Brand : JinryuAgriculturalDrone, Carry Capacity : 10
+class projectA.helicopter.Quadcopter
+Brand : JingyuAirplane, Price : 200000.0$, HorsePower : 10, Number Of Cylinders : 5, Creation Year : 2020, Passenger Capacity : 5, Maximum Flying Speed : 100Km/h
+class projectA.helicopter.Quadcopter
+Brand : Canada, Price : 8000000.0$, HorsePower : 5, Number Of Cylinders : 5, Creation Year : 2019, Passenger Capacity : 4, Maximum Flying Speed : 500Km/h
+class projectA.uav.UAV
+Weight : 10.0Kg, Price : 2000.0$
+class projectA.multirotor.Multirotor
+Brand : JingyuAirplane, Price : 200000.0$, HorsePower : 10, Number Of Cylinders : 5, Creation Year : 2020, Passenger Capacity : 5, Number Of Rotors : 6
+class projectA.multirotor.Multirotor
+Brand : Canada, Price : 9000000.0$, HorsePower : 7, Number Of Cylinders : 8, Creation Year : 2021, Passenger Capacity : 5, Number Of Rotors : 6
+class projectA.drones.AgriculturalDrone
+Weight : 10.0Kg, Price : 1000.0$, Brand : Apple, Carry Capacity : 5
+class projectA.uav.UAV
+Weight : 10.0Kg, Price : 3000.0$
+class projectA.airplane.Airplane
+Brand : JingyuAirplane, Price : 200000.0$, HorsePower : 10
+class projectA.drones.MAV
+Weight : 9.0Kg, Price : 3500.0$, Model : Canada, Size : 20.0cm
+class projectA.drones.MAV
+Weight : 12.0Kg, Price : 50000.0$, Model : Power, Size : 12.0cm
+class projectA.drones.AgriculturalDrone
+Weight : 10.0Kg, Price : 2000.0$, Brand : JinryuAgriculturalDrone, Carry Capacity : 10
+
+
+=================================================
+======== Least expensive UAV ========
+class projectA.drones.AgriculturalDrone
+Weight : 10.0Kg, Price : 1000.0$, Brand : Apple, Carry Capacity : 5
+======== Most expensive UAV  ========
+class projectA.drones.MAV
+Weight : 12.0Kg, Price : 50000.0$, Model : Power, Size : 12.0cm
