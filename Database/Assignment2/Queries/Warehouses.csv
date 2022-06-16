@@ -1,0 +1,4 @@
+WarehouseID,Address,City,State,Zip,Phone,ClimateControl,SecurityGate
+OR-1,Presentation Av,Portland,OR,H9S 1G2,43847771234,0,1
+WA-1,Kingsley Av,Utah,WA,H9S 1G2,4384017088,1,1
+WY-1,Carson Av,Michigan,WY,H0H 0H0,5147089999,1,0

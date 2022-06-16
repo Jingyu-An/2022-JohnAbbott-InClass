@@ -109,18 +109,18 @@ create table Status
 /* *****	Table No. 8 - Participants 	 ***** */
 create table Participants
 (
-    PartID smallint not null ,
+    PartID smallint auto_increment not null primary key ,
     PartFN varchar(20) not null ,
-    PartMN varchar(20) not null ,
-    PartLN varchar(20) not null ,
-    constraint pk_Participants primary key (PartID asc )
+    PartMN varchar(20) null ,
+    PartLN varchar(20) not null
 )
 ;
+
 
 /* *****	Table No. 9 - DVDs 	 ***** */
 create table DVDs
 (
-    DVDID    smallint    not null,
+    DVDID    smallint   auto_increment not null primary key,
     DVDName  varchar(60) not null,
     NumDisks tinyint     not null,
     YearRlsd year        not null,
@@ -128,8 +128,7 @@ create table DVDs
     StudID   varchar(4)  not null, -- foreign key references to Studios table
     RatingID varchar(4)  not null, -- foreign key references to Ratings table
     FormID   char(2)     not null, -- foreign key references to Formats table
-    StatID   char(3)     not null, -- foreign key references to Status table
-    constraint pk_DVDs primary key (DVDID asc)
+    StatID   char(3)     not null -- foreign key references to Status table
 )
 ;
 
@@ -154,33 +153,30 @@ describe DVDParticipants
 /* *****	Table No. 11 - Employees  ***** */
 create table Employees
 (
-    EmpID smallint not null ,
+    EmpID smallint auto_increment not null primary key,
     EmpFN varchar(20) not null ,
     EmpMN varchar(20) not null ,
-    EmpLN varchar(20) not null ,
-    constraint pk_Employees primary key (EmpID asc )
+    EmpLN varchar(20) not null
 )
 ;
 
 /* *****	Table No. 12 - Orders 	 ***** */
 create table Orders
 (
-    OrderID int not null ,
+    OrderID int auto_increment not null primary key,
     CustID smallint not null , -- foreign key references to Customers table
-    EmpID smallint not null ,  -- foreign key references to Employees table
-    constraint pk_Orders primary key (OrderID asc )
+    EmpID smallint not null   -- foreign key references to Employees table
 )
 ;
 
 /* *****	Table No. 13 - Transactions 	 ***** */
 create table Transactions
 (
-    TransID int not null ,
+    TransID int auto_increment not null primary key,
     OrderID int not null ,    -- foreign key references to Orders table
     DVDID smallint not null , -- foreign key references to DVDs table
     DateOut date not null ,
     DateDue date not null ,
-    DateIn date not null ,
-    constraint pk_Transactions primary key (TransID asc )
+    DateIn date not null
 )
 ;
