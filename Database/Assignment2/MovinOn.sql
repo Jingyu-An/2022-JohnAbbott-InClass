@@ -244,6 +244,7 @@ alter table Unitrentals
 ;
 
 
+/* Add data from CSV files */
 load data infile 'C:/ProgramData/MySQL/MySQL Server 8.0/Uploads/Customers.csv'
 into table Customers
 fields terminated by ','
