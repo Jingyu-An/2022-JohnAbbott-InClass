@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/../Project/Project_V1/1_create_database.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/../Project/Project_V1/2_create_schema_objects.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/../Safeway22H2/Safeway22H2/1-create database.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/../Safeway22H2/Safeway22H2/10_updating_data.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/../Safeway22H2/Safeway22H2/8_transfer_tables_to_another_schamas.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/../Safeway22H2/Safeway22H2/9_renaming_objects.sql" dialect="TSQL" />
     <file url="file://$PROJECT_DIR$/4-insert data into tables.sql" dialect="MySQL" />
-    <file url="PROJECT" dialect="MySQL" />
+    <file url="PROJECT" dialect="TSQL" />
   </component>
 </project>

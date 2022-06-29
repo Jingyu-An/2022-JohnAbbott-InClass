@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Safeway22H2">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="EPLANNING:EPLANNING\KDaou">
+          <Created>2022-06-20T11:12:01.9464346-04:00</Created>
+          <Type>SQL</Type>
+          <Server>EPLANNING</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="10_updating_data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>10_updating_data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="11_using_unique_idenifier.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>11_using_unique_idenifier.sql</FullPath>
+        </FileNode>
+        <FileNode Name="12-manipulating data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>12-manipulating data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="13-create nested queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>13-create nested queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="14-create vews.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>14-create vews.sql</FullPath>
+        </FileNode>
+        <FileNode Name="15_Built_IN_T-SQL_Functions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>15_Built_IN_T-SQL_Functions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="16_user_defined_functions.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>16_user_defined_functions.sql</FullPath>
+        </FileNode>
+        <FileNode Name="17_system_stored_procedures_Answers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>17_system_stored_procedures_Answers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="18_User-Defined Procedures.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>18_User-Defined Procedures.sql</FullPath>
+        </FileNode>
+        <FileNode Name="19_user-defined triggers.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>19_user-defined triggers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="1-create database.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>1-create database.sql</FullPath>
+        </FileNode>
+        <FileNode Name="20_using_Union_clause.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>20_using_Union_clause.sql</FullPath>
+        </FileNode>
+        <FileNode Name="2-create-schema-objects.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>2-create-schema-objects.sql</FullPath>
+        </FileNode>
+        <FileNode Name="3_create_user_defined_data_types.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>3_create_user_defined_data_types.sql</FullPath>
+        </FileNode>
+        <FileNode Name="4_create_table_objects.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>4_create_table_objects.sql</FullPath>
+        </FileNode>
+        <FileNode Name="5_apply_data_integrity.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>5_apply_data_integrity.sql</FullPath>
+        </FileNode>
+        <FileNode Name="6_creating_indexes.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>6_creating_indexes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="7_Instering_data.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>7_Instering_data.sql</FullPath>
+        </FileNode>
+        <FileNode Name="8_transfer_tables_to_another_schamas.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>8_transfer_tables_to_another_schamas.sql</FullPath>
+        </FileNode>
+        <FileNode Name="9_renaming_objects.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:EPLANNING:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>EPLANNING</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>9_renaming_objects.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

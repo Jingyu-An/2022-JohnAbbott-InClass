@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Safeway22H2", "Safeway22H2\Safeway22H2.ssmssqlproj", "{434B08BA-34F0-455F-B380-BCCC2A7C163E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4F0D4735-C100-4340-A012-D47BEB04EDA5}.Default|Default.ActiveCfg = Default
+		{434B08BA-34F0-455F-B380-BCCC2A7C163E}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1AB4879-1FEF-4A15-9E93-CBC0DECD8212}
+	EndGlobalSection
+EndGlobal
