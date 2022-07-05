@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../images/parksbg.gif");
+}
+
+#container {
+    width: 1250px;
+    /* Order for the box model: margin, border, and padding */
+    padding: 10px;
+}
+
+#header {
+    margin: 0 0 10px 0;
+    text-align: center;
+}
+
+#header h1 {
+    color: darkgreen;
+}
+
+#top-nav {
+    margin: 0 0 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+#main p {
+    width: 51%;
+    font-size: 16px;
+    padding: 0 10px 5px 0;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#sand {
+    float: right;
+    width: 570px;
+    margin: 10px 0 0 20px;
+    padding: 0 0 0 10px;
+}
+
+#waterfall {
+    width: 18%;
+    margin: 10px 0 0 0;
+    padding: 0 20px 0 20px;
+    float: left;
+}
+
+#main li {
+    padding-right: 20px;
+    padding-bottom: 20px;
+    list-style-position: inside;
+}

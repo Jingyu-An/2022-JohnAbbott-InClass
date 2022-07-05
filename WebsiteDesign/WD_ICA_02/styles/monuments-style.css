@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../images/parksbg.gif");
+}
+
+#container {
+    width: 1250px;
+    /* Order for the box model: margin, border, and padding */
+}
+
+#header {
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+#header h1 {
+    color: darkgreen;
+}
+
+#main p {
+    margin: 0 0 10px 0;
+    padding: 0 0 0 10px;
+    font-size: 14px;
+}
+
+#dinosaur {
+    margin: 10px 10px 0 20px;
+    padding: 0 10px 0 10px;
+    width: 33%;
+    float: left;
+}
+
+#fossil {
+    width: 25%;
+    float: right;
+    margin: 10px 0 0 20px;
+    padding: 0 0 0 10px;
+}
+
+#housing {
+    margin: 10px 10px 0 20px;
+    padding: 0 10px 0 10px;
+    width: 11%;
+    float: left;
+}

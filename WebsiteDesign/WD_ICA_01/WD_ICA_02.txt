@@ -1,0 +1,7 @@
+In-Class Activities 02
+
+Create the Colorado Web Site
+create three files: index.html. national-parks.html, and monuments.html
+
+Styles the three html files
+

@@ -1,0 +1,42 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../images/parksbg.gif");
+}
+
+#container {
+    width: 1250px;
+    /* Order for the box model: margin, border, and padding */
+}
+
+#header {
+    margin: 10px 0 10px 0;
+    text-align: center;
+}
+
+#header h1 {
+    color: darkgreen;
+}
+
+#map {
+    margin: 10px 0 0 20px;
+    padding: 0 0 0 10px;
+    width: 39%;
+    float: right;
+}
+
+#main a {
+    font-size: 17px;
+}
+
+#main li {
+    width: 680px;
+    padding: 0 0 5px 50px;
+    list-style-position: inside;
+    font-size: 16px;
+}
