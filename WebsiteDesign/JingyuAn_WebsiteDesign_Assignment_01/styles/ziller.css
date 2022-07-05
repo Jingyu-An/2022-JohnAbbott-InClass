@@ -1,0 +1,161 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 10px auto;
+    border: 1px solid black;
+    background-color: beige;
+    width: 1090px;
+}
+#header {
+    background-image: url("../images/blacktexture.jpg");
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 23px;
+}
+
+#top-nav {
+    margin: 0 0 0 0;
+    padding: 10px;
+    background-color: gray;
+    text-align: center;
+    font-size: 22px;
+}
+
+#top-nav ul li {
+    list-style-type: none;
+    display: inline;
+    background-color: black;
+    margin: 3px;
+    padding: 5px;
+}
+
+#top-nav ul li a {
+    border-radius: 8px;
+    padding: 0 2px 0 2px;
+}
+
+#top-nav ul li a:link {
+    color: white;
+    text-decoration: underline;
+}
+
+#top-nav ul li a:visited {
+    color: blue;
+}
+
+#top-nav ul li a:hover {
+    text-decoration: none;
+    color: darkgray;
+}
+
+#top-nav ul li a:active {
+    color: yellow;
+    text-decoration: underline;
+}
+
+#main {
+    height: 975px;
+}
+
+#main img {
+    float: left;
+    width: 65%;
+    height: 200px;
+}
+
+#main h1 {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    margin-bottom: 10px;
+}
+
+#main p {
+    text-indent: 20px;
+    font-size: 20px;
+}
+
+#left-main {
+    width: 336px;
+    float: left;
+    border-right: 3px solid cadetblue;
+    padding: 15px;
+}
+
+#left-main p {
+}
+
+#middle-main {
+    width: 340px;
+    float: left;
+    border-right: 3px solid cadetblue;
+    padding: 10px;
+}
+
+#middle-main p {
+    padding-bottom: 20px;
+}
+
+#right-main {
+    width: 338px;
+    float: right;
+    padding: 10px;
+}
+
+#right-main p {
+    padding-bottom: 20px;
+}
+
+#footer {
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: 23px;
+    padding: 10px;
+}
+
+#bottom-nav {
+    margin: 0 0 0 0;
+    padding: 10px;
+    font-size: 22px;
+}
+
+#bottom-nav ul li {
+    list-style-type: none;
+    display: inline;
+    background-color: black;
+    margin: 3px;
+    padding: 5px;
+}
+
+#bottom-nav ul li a {
+    border-radius: 8px;
+    padding: 0 2px 0 2px;
+}
+
+#bottom-nav ul li a:link {
+    color: white;
+    text-decoration: underline;
+}
+
+#bottom-nav ul li a:visited {
+    color: blue;
+}
+
+#bottom-nav ul li a:hover {
+    text-decoration: none;
+    color: darkgray;
+}
+
+#bottom-nav ul li a:active {
+    color: yellow;
+    text-decoration: underline;
+}
