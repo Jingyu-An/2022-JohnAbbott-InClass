@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hotel-reservation-form</title>
+</head>
+
+<body>
+    <h1>Hotel Reservation Form</h1>
+    <form id="hotel_reservation" method="post" action="8-reservation-form-completed.html" autocomplete="off">
+        <fieldset>
+            <legend>Guest Personal Information</legend>
+            <table>
+                <tr>
+                    <td>
+                        <label for="first_name">First Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="first_name" size="20" maxlength="20" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="last_name">Last Name:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="last_name" size="20" maxlength="20" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="address">Address:</label>
+                    </td>
+                    <td>
+                        <input type="text" id="address" size="30" maxlength="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="city">City</label>
+                    </td>
+                    <td>
+                        <input type="text" id="city" size="30" maxlength="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label>State / ZipCode</label></td>
+                    <td>
+                        <label for="state">State: </label>
+                        <input type="text" id="state" size="2" maxlength="2" />
+                        <label for="zipcode">Zipcode:</label>
+                        <input type="text" id="zipcode" size="10" maxlength="10" />
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="email">Email Address:</label>
+                    </td>
+                    <td>
+                        <input type="email" id="email" size="40" maxlength="40" pattern="" />
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+
+        <fieldset>
+            <legend>Hotel Reservation</legend>
+        </fieldset>
+
+
+        <input type="submit" value="Submit your form" />
+    </form>
+</body>
+
+</html>
