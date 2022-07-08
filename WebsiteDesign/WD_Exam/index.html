@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Share Your Travels</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header id="header">
+        <h1>Share Your Travels</h1>
+        <p class="intro">let us know where you've been</p>
+    </header>
+
+    <main id="main">
+        <div class="content">
+
+            <p>PHOTO DETAILS</p>
+
+            <form class="forms" method="post" action="">
+                <div class="title">
+                    <label for="submit-title">Title<br></label>
+                    <input type="text" name="title" id="submit-title" placeholder="Give your photo a descriptive name">
+                </div>
+                <div class="description">
+                    <label for="submit-description">Description<br></label>
+                    <textarea name="description" id="submit-description" rows="5" cols="auto"
+                              placeholder="Adding a rich description will help with search results"></textarea>
+                </div>
+                <table>
+                    <tr>
+                        <td class="where">
+                            <ul>
+                                <li>
+                                    <label for="continent">Continent <br></label>
+                                    <select id="continent">
+                                        <option hidden="" disabled="disabled" selected="selected" value="">Choose
+                                            continent
+                                        </option>
+                                        <option value="Africa">Africa</option>
+                                        <option value="Asia">Asia</option>
+                                        <option value="Europe">Europe</option>
+                                        <option value="North America">North America</option>
+                                        <option value="South America">South America</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <label for="Country">Country <br></label>
+                                    <select id="Country">
+                                        <option hidden="" disabled="disabled" selected="selected" value="">Choose
+                                            Country
+                                        </option>
+                                        <option value="Canada">Canada</option>
+                                        <option value="Mexico">Mexico</option>
+                                        <option value="United States">United States</option>
+                                    </select>
+                                </li>
+                                <li>
+                                    <label for="city">City <br></label>
+                                    <input type="search" id="city">
+                                </li>
+                            </ul>
+                        </td>
+                        <td>
+                            <div class="copyright">
+                                <label>
+                                    Copyright? <br>
+                                    <input type="radio"> All rights reserved<br>
+                                    <input type="radio"> Creative Commons<br>
+                                </label>
+                            </div>
+                            <div class="creative-type">
+                                <label>
+                                    Creative Commons Types <br>
+                                    <input type="checkbox"> Attribution<br>
+                                    <input type="checkbox"> Noncommercial<br>
+                                    <input type="checkbox"> No Derivative Works<br>
+                                </label>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+
+                <div class="accept">
+                    <label>
+                        I accept the software license <input type="checkbox">
+                    </label>
+                </div>
+
+                <table>
+                    <tr>
+                        <td>
+                            <div class="photo">
+                                <label>
+                                    Rate this photo: <br>
+                                    <input type="number"> <br>
+                                    Color Collection: <br>
+                                    <input type="color">
+                                </label>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="date">
+                                <label>
+                                    Date Taken: <br>
+                                    <input type="date"> <br>
+                                    Time Taken: <br>
+                                    <input type="time">
+                                </label>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <div class="bottom-button">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Clear Form">
+                </div>
+            </form>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,153 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: #E8EAF6;
+}
+
+#header {
+    background: #1A237E;
+    color: white;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Lobster', cursive;
+}
+
+#main {
+    background: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 0;
+}
+
+.content {
+    background-color: #C5CAE9;
+    margin: 0 20px 30px 20px;
+}
+
+.forms {
+    padding: 10px;
+}
+
+.content p {
+    background-color: #7986CB;
+    color: white;
+    font-size: 30px;
+}
+
+.title {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.description {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.content table {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.where {
+    width: 50%;
+    font-size: 20px;
+}
+
+.where ul {
+    list-style:none;
+}
+
+.where ul li {
+    margin: 10px;
+}
+
+.copyright {
+    border: 1px solid #9CA5D6;
+    margin: 5px 0 10px 0 ;
+    font-size: 20px;
+    padding: 10px;
+}
+select {
+    width: 60%;
+    height: 25px;
+}
+
+input[type='search'] {
+    width: 60%;
+    height: 30px;
+}
+
+.creative-type {
+    border: 1px solid #9CA5D6;
+    margin: 5px 0 10px 0 ;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.accept {
+    background-color: #9CA5D6;
+    width: 100%;
+    padding: 10px 0 10px 5px;
+    font-size: 20px;
+}
+
+.photo {
+    font-size: 20px;
+    width: 50%;
+}
+
+input[type='number'] {
+    width: 60px;
+    height: 25px;
+}
+
+.date {
+    border: 1px solid #9CA5D6;
+    padding: 10px 10px 10px 10px;
+}
+
+select:required:invalid{
+    color:gray;
+}
+
+#submit-title {
+    width: 100%;
+}
+
+#submit-description {
+    width: 100%;
+}
+
+
+.bottom-button {
+    background-color: #9CA5D6;
+    padding: 10px 0 10px 10px;
+}
+
+input[type='submit'] {
+    background: #E91E63;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    padding: 10px 20px;
+}
+
+input[type='reset'] {
+    background: #E91E63;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 5px;
+    padding: 10px 20px;
+}

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="05da6209-c445-4a0b-8751-b893374603c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../JingyuAn_WebsiteDesign_Assignment_01/JingyuAn_WebsiteDesign_Assignment_01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WD_Exam.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_ICA_01/WD_ICA_01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_ICA_02/WD_ICA_02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_01/WD_Labs_01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_05/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_05/.idea/WD_Labs_05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_05/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_05/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/1-aligning-images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/2-planting-guide.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/3-background-image-element.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/4-image-gallery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/WD_Labs_06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/fluid-layout/1-float-layout-v2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/fluid-layout/1-float-layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/fluid-layout/2-flex-layout-v2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/fluid-layout/2-flex-layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/fluid-layout/3-flex-layout-v3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/fluid-layout/3-grid-layout-v2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/fluid-layout/3-grid-layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/fluid-layout/4-product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/fluid-layout/holiday.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/fluid-layout/images/boat.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/fluid-layout/images/nature.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/fluid-layout/images/sanity-check.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/fluid-layout/images/supply-chains.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/fluid-layout/images/synergize-nature.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/fluid-layout/images/walking.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/fluid-layout/images_Labs_6-2.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/fluid-layout/styles/holiday.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/backdrop.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/bg-league.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/button-sprite.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/buttons.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/header.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/magnolia-large.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/magnolia-medium.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/magnolia-small.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/pattern.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/print-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/print-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/print-03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/print-04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/print-05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/print-06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/shadow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/title.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images/tulip.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../WD_Labs_06/images_labs_06.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_LABS_02/WD_LABS_02.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../WD_LABS_02/WD_LABS_02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_03/WD_Labs_03.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../WD_Labs_03/WD_Labs_03.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/1-table.html" beforeDir="false" afterPath="$PROJECT_DIR$/../WD_Labs_04/1-table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/1-table.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/2-table-properties.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/3-coding-element.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/4-date-time.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/5-line-break-opportunity.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/6-gallery-mauritshuis.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/7-hotel-reservation-form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/8-reservation-form-completed.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/HTML Forms_Controls.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/images/Alice_Adventures.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/images/Royal-Picture-Gallery-Mauritshuis.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/images/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/images/camel.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/images/central-park.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../WD_Labs_06/images/central-park.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/images/drink-me-bottle.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/images/favicon.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/images/header-background.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../WD_Labs_06/images/header-background.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/images/next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/images/pattern.gif" beforeDir="false" afterPath="$PROJECT_DIR$/../WD_Labs_06/images/pattern1.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/images/previous.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/images/tiny-door-behind-curtain.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/images/white-rabbit.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/styles/base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04/styles/table-properties.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2BfEqN86VpCabsSGKq0FAXCDdjR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="05da6209-c445-4a0b-8751-b893374603c6" name="Changes" comment="" />
+      <created>1657288928593</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657288928593</updated>
+      <workItem from="1657288929816" duration="2000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../JingyuAn_WebsiteDesign_Assignment_01/JingyuAn_WebsiteDesign_Assignment_01.iml" filepath="$PROJECT_DIR$/../JingyuAn_WebsiteDesign_Assignment_01/JingyuAn_WebsiteDesign_Assignment_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WD_Exam/WD_Exam.iml" filepath="$PROJECT_DIR$/../WD_Exam/WD_Exam.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WD_ICA_01/WD_ICA_01.iml" filepath="$PROJECT_DIR$/../WD_ICA_01/WD_ICA_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WD_ICA_02/WD_ICA_02.iml" filepath="$PROJECT_DIR$/../WD_ICA_02/WD_ICA_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WD_LABS_02/WD_LABS_02.iml" filepath="$PROJECT_DIR$/../WD_LABS_02/WD_LABS_02.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WD_Labs_01/WD_Labs_01.iml" filepath="$PROJECT_DIR$/../WD_Labs_01/WD_Labs_01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WD_Labs_03/WD_Labs_03.iml" filepath="$PROJECT_DIR$/../WD_Labs_03/WD_Labs_03.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04.iml" filepath="$PROJECT_DIR$/../WD_Labs_04/WD_Labs_04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/WD_Labs_05.iml" filepath="$PROJECT_DIR$/.idea/WD_Labs_05.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../WD_Labs_06/WD_Labs_06.iml" filepath="$PROJECT_DIR$/../WD_Labs_06/WD_Labs_06.iml" />
+    </modules>
+  </component>
+</project>
