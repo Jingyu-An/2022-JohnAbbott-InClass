@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="utf-8" />
+   <meta name="viewport" content="width=device-width,initial-scale=1.0">
+   <title>Hands-on Project 1-4</title>
+   <link rel="stylesheet" href="../styles/project01-04.css" />
+   <!--
+      JavaScript 
+      Hands-on Project 1-4
+
+      Author: Jingyu An
+      Date:   2022-08-01
+
+      Filename: index.htm
+   -->
+   <script src="../scripts/project01-04.js"></script>
+</head>
+
+<body>
+   <header>
+      <h1>
+         Hands-on Project 1-4
+      </h1>
+   </header>
+
+   <article>
+      <h2>Shipping Address</h2>
+      <form>
+
+         <fieldset id="addroptions">
+            <legend><span>Choose an address</span></legend>
+            <label for="homeoption" id="homeaddr">
+               <div>Home</div>
+               <script>
+                  document.write(homeStreet + '<br />' + homeCity + ', ' + homeState + ' ' + homeCode)
+               </script>
+               <input type="radio" id="homeoption" onclick="setAddress('home');"  name="shippingaddr" />
+            </label>
+            <label for="workoption" id="workaddr">
+               <div>Work</div>
+               <script>
+                  document.write(workStreet + '<br />' + workCity + ', ' + workState + ' ' + workCode)
+               </script>
+               <input type="radio" id="workoption" onclick="setAddress('work');" name="shippingaddr" />
+            </label>
+         </fieldset>
+
+
+         <fieldset id="contactinfo">
+            <label for="street">
+               Street Address
+               <input type="text" id="street" />
+            </label>
+            <label for="city">
+               City
+               <input type="text" id="city" />
+            </label>
+            <label for="state">
+               State
+               <input type="text" id="state" />
+            </label>
+            <label for="code">
+               Zip
+               <input type="text" id="code" />
+            </label>
+         </fieldset>
+
+      </form>
+   </article>
+</body>
+
+</html>
