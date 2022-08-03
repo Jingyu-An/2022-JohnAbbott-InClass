@@ -10,9 +10,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <link rel="stylesheet" href="styles/countdown_event.css" />
     <!-- link to an external script countdown_event.js -->
-
+    <script src="scripts/countdown_event.js"></script>
+    <script>
+            window.addEventListener('load', setInterval('eventClock()', 1000));
+    </script>
 </head>
 
+<!-- <body onload="window.setInterval('eventClock()', 1000);"> -->
 <body>
     <div id="container">
         <form id="clockform" name="clockform" action="#">
@@ -20,11 +24,11 @@
                 <h4>Time</h4>
                 <p>
                     <label for="txtDateNow">Today</label>
-                    <input type="text" size="12" id="txtDateNow" name="txtDateNow" /><br />
+                    <input type="text" size="12" id="txtDateNow" name="txtDateNow" readonly/><br />
                     <img src="images/clock.jpg" id="sand_timer" alt="Clock" title="Clock" />
                     <br />
                     <label for="txtTimeNow">Time</label>
-                    <input type="text" size="12" id="txtTimeNow" name="txtTimeNow" />
+                    <input type="text" size="12" id="txtTimeNow" name="txtTimeNow" readonly />
                 </p>
             </div>
 
