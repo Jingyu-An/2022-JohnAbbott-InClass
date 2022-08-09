@@ -1,0 +1,227 @@
+﻿<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>Jackson Electronics World Clock</title>
+    <!--Link to the external CSS named time-zones.css document -->
+    <!--Link to the external js named time_zones.js document -->
+    
+    <!--
+        Web Development with JavaScript
+        Case Problem 2
+        Assignment 01
+        
+        Jackson Electronics World Clock
+        Developed By:       Jingyu An
+        Developed Date:     08-06-2022
+        Filename:           world-time.html
+        Supporting files: time-zones.css, logo.mpg, map.jpg, time_zones.js
+    -->
+    <link type="text/css" rel="stylesheet" href="styles/time-zones.css">
+    <script src="scripts/time_zones.js" defer></script>
+    <script>
+        'use strict';
+
+        function worldClock() {
+            let today;
+            today = new Date();
+
+            let offset;
+            offset = (today.getTimezoneOffset()) * 60 * 1000;
+
+            let universalTime;
+            universalTime = addTime(today, offset);
+
+            let houstonTime;
+            houstonTime = addTime(universalTime, (-360) * 60 * 1000);
+
+            let londonTime;
+            londonTime = addTime(universalTime, (0) * 60 * 1000);
+
+            let newYorkTime;
+            newYorkTime = addTime(universalTime, (-300) * 60 * 1000);
+
+            let seattleTime;
+            seattleTime = addTime(universalTime, (-480) * 60 * 1000);
+
+            let sydneyTime;
+            sydneyTime = addTime(universalTime, (660) * 60 * 1000);
+
+            let tokyoTime;
+            tokyoTime = addTime(universalTime, (540) * 60 * 1000);
+
+            let placeHouston = document.getElementById('place1');
+            placeHouston.value = showTime(houstonTime);
+
+            let placeLondon = document.getElementById('place2');
+            placeLondon.value = showTime(londonTime);
+
+            let placeNewYork = document.getElementById('place3');
+            placeNewYork.value = showTime(newYorkTime);
+
+            let placeSeattle = document.getElementById('place4');
+            placeSeattle.value = showTime(seattleTime);
+
+            let placeSydney = document.getElementById('place5');
+            placeSydney.value = showTime(sydneyTime);
+
+            let placeTokyo = document.getElementById('place6');
+            placeTokyo.value = showTime(tokyoTime);
+
+            let nameHouston = document.getElementById('name1');
+            let officeHouston = document.getElementById('Houston_Office');
+            placeHouston.onmouseover = nameHouston.onmouseover = officeHouston.onmouseover = function() {
+                mouseOverEvent('.houston');
+            }
+            placeHouston.onmouseout = nameHouston.onmouseout = officeHouston.onmouseout = function() {
+                mouseOutEvent('.houston');
+            }
+
+            let nameLondon = document.getElementById('name2');
+            let officeLondon = document.getElementById('London_Office');
+            placeLondon.onmouseover = nameLondon.onmouseover = officeLondon.onmouseover = function() {
+                mouseOverEvent('.london');
+            }
+            placeLondon.onmouseout = nameLondon.onmouseout = officeLondon.onmouseout = function() {
+                mouseOutEvent('.london');
+            }
+
+            let nameNewYork = document.getElementById('name3');
+            let officeNewYork = document.getElementById('NY_Office');
+            placeNewYork.onmouseover = nameNewYork.onmouseover = officeNewYork.onmouseover = function() {
+                mouseOverEvent('.newYork');
+            }
+            placeNewYork.onmouseout = nameNewYork.onmouseout = officeNewYork.onmouseout = function() {
+                mouseOutEvent('.newYork');
+            }
+
+            let nameSeattle = document.getElementById('name4');
+            let officeSeattle = document.getElementById('Seattle_Office');
+            placeSeattle.onmouseover = nameSeattle.onmouseover = officeSeattle.onmouseover = function() {
+                mouseOverEvent('.seattle');
+            }
+            placeSeattle.onmouseout = nameSeattle.onmouseout = officeSeattle.onmouseout = function() {
+                mouseOutEvent('.seattle');
+            }
+
+            let nameSydney = document.getElementById('name5');
+            let officeSydney = document.getElementById('Sydney_Office');
+            placeSydney.onmouseover = nameSydney.onmouseover = officeSydney.onmouseover = function() {
+                mouseOverEvent('.sydney');
+            }
+            placeSydney.onmouseout = nameSydney.onmouseout = officeSydney.onmouseout = function() {
+                mouseOutEvent('.sydney');
+            }
+
+            let nameTokyo = document.getElementById('name6');
+            let officeTokyo = document.getElementById('Tokyo_Office');
+            placeTokyo.onmouseover = nameTokyo.onmouseover = officeTokyo.onmouseover = function() {
+                mouseOverEvent('.tokyo');
+            }
+            placeTokyo.onmouseout = nameTokyo.onmouseout = officeTokyo.onmouseout = function() {
+                mouseOutEvent('.tokyo');
+            }
+
+        }
+
+    </script>
+</head>
+
+<body onload="worldClock();">
+    <form id="zonesForm" name="zonesForm" action="#">
+        <div id="headbar">
+            <img src="images/logo.jpg" alt="Jackson Electronics" />
+            <h2>Corporate Headquarters World Clock</h2>
+        </div>
+
+        <div id="timemap">
+            <input id="place1" class="houston" name="place1" size="7" readonly/>
+            <input id="place2" class="london" name="place2" size="7" readonly/>
+            <input id="place3" class="newYork" name="place3" size="7" readonly/>
+            <input id="place4" class="seattle" name="place4" size="7" readonly/>
+            <input id="place5" class="sydney" name="place5" size="7" readonly/>
+            <input id="place6" class="tokyo" name="place6" size="7" readonly/>
+
+            <img src="images/map.jpg" alt="World Map" id="map" width="655" height="371" />
+            <table>
+                <tr>
+                    <th id="name1" class="houston">Houston</th>
+                    <th id="name2" class="london">London</th>
+                    <th id="name3" class="newYork">New York</th>
+                    <th id="name4" class="seattle">Seattle</th>
+                    <th id="name5" class="sydney">Sydney</th>
+                    <th id="name6" class="tokyo">Tokyo</th>
+                </tr>
+            </table>
+            <table>
+                <tr>
+                    <td id="NY_Office" class="newYork">
+                        <p>
+                            <b>Jackson Electronics USA</b>
+                            <br />10010 Park Street
+                            <br />New York NY 10001
+                            <br /><b>Phone: </b>(212) 555-1209
+                            <br /><b>Fax: </b>(212) 555-4001
+                        </p>
+                    </td>
+
+                    <td id="Seattle_Office" class="seattle">
+                        <p>
+                            <b>Jackson Electronics Ltd.</b>
+                            <br />2349 Mitchell Street
+                            <br />Seattle, WA 65091
+                            <br /><b>Phone: </b>(381) 555-5499
+                            <br /><b>Fax: </b>(381) 555-3181
+                        </p>
+                    </td>
+
+                    <td id="Houston_Office" class="houston">
+                        <p>
+                            <b>Jackson Electronics Latin America</b>
+                            <br />5150 Shasta Lane
+                            <br />Houston, TX 32821
+                            <br /><b>Phone: </b>(817) 555-8190
+                            <br /><b>Fax: </b>(817) 555-2881
+                        </p>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td id="London_Office" class="london">
+                        <p>
+                            <b>Jackson Electronics Europe</b>
+                            <br />18 Northland Avenue
+                            <br />London, England WC2N 5EA
+                            <br /><b>Phone: </b>(+44) 0 870 555 7081
+                            <br /><b>Fax: </b>(+44) 0 870 555 1788
+                        </p>
+                    </td>
+
+                    <td id="Sydney_Office" class="sydney">
+                        <p>
+                            <b>Jackson Electronics Pacifica</b>
+                            <br />171-105 Thomas Street
+                            <br />Sydney NSW 2000, Australia
+                            <br /><b>Phone: </b>(+61) 2 5555 8993
+                            <br /><b>Fax: </b>(+61) 2 5555 7171
+                        </p>
+                    </td>
+
+                    <td id="Tokyo_Office" class="tokyo">
+                        <p>
+                            <b>Jackson Electronics Asia</b>
+                            <br />1-2-99 Sumiyoshi
+                            <br />Hakata-Ku
+                            <br />Tokyo 140-8781 Japan
+                            <br /><b>Phone: </b>(+81) 3 5551 7817
+                            <br /><b>Fax: </b>(+81) 3 5551 2398
+                        </p>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </form>
+</body>
+</html>
