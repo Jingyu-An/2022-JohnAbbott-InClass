@@ -1,0 +1,31 @@
+header, section{
+    width: 400px;
+    text-align: center;
+}
+
+header h1 {
+    color: blue;
+    font-style: italic;
+}
+
+table {
+    width: 400px;
+    margin: 20px;
+}
+
+table, td {
+    border: 1px solid black;
+}
+
+.total {
+    background-color: skyblue;
+    font-weight: bold;
+}
+
+.title {
+    font-weight: bold;
+}
+
+input[type="number"] {
+    text-align: right;
+}

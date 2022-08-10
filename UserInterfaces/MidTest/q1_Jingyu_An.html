@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salary Calculator</title>
+    <link type="text/css" rel="stylesheet" href="styles/q1_Jingyu_An.css">
+    <script src="scripts/q1_Jingyu_An.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Last Week Salary</h1>
+    </header>
+    <section>
+        <table>
+            <tr>
+                <td colspan="4" class="title">Item sold for last week</td>
+            </tr>
+            <tr>
+                <td class="title">Item</td>
+                <td class="title">Value</td>
+                <td class="title">Quantity</td>
+                <td class="title">Subtotal</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>239.99</td>
+                <td>
+                    <input type="number" name="item1" id="item1" onchange="calculateSubtotal('item1')" value=""/>
+                </td>
+                <td id="item1SubTotal" class="subtotal"></td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>129.75</td>
+                <td>
+                    <input type="number" name="item2" id="item2" onchange="calculateSubtotal('item2')" value="" />
+                </td>
+                <td id="item2SubTotal" class="subtotal"></td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>99.95</td>
+                <td>
+                    <input type="number" name="item3" id="item3" onchange="calculateSubtotal('item3')" value="" />
+                </td>
+                <td id="item3SubTotal" class="subtotal"></td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>350.89</td>
+                <td>
+                    <input type="number" name="item4" id="item4" onchange="calculateSubtotal('item4')" value="" />
+                </td>
+                <td id="item4SubTotal" class="subtotal"></td>
+            </tr>
+            <tr>
+                <td colspan=3 class="total">Total</td>
+                <td id="total" class="total"></td>
+            </tr>
+        </table>
+
+        <table>
+            <tr>
+                <td colspan="2" class="title">Last Week Salary</td>
+            </tr>
+            <tr>
+                <td>Base salary</td>
+                <td id="base" style="width: 50%;"></td>
+            </tr>
+            <tr>
+                <td id="commission">Commission</td>
+                <td id="commissionValue"></td>
+            </tr>
+            <tr>
+                <td class="total">Total</td>
+                <td id="totalSalary" class="total"></td>
+            </tr>
+        </table>
+
+        <input type="button" value="Calculate Total Earning" onclick="lastWeekSalary()">
+    </section>
+
+</body>
+</html>
