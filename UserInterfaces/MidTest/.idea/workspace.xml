@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c9b08af-1199-434f-b9cc-902d24c4b82a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MidTest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UI_Labs_06/UI_Labs_06.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../UI_Labs_07/UI_Labs_07.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../UI_Labs_01/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../UI_Labs_01/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Q1_Jingyu_An.zip" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../WebsiteDesign/WD_Exam.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +12,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2DAPdVRFmX6rFvppS24MFh3fo1A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -31,6 +27,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "configurable.group.appearance"
   }
 }]]></component>
@@ -43,6 +40,7 @@
       <option name="presentableId" value="Default" />
       <updated>1660139002455</updated>
       <workItem from="1660139003571" duration="2000" />
+      <workItem from="1660149097454" duration="48000" />
     </task>
     <servers />
   </component>
