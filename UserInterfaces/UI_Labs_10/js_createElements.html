@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+        /* Using Document Object Model (DOM):
+        1.  to add, change, and remove html elemens, in this case text field, 
+        when a user click Add button.
+        2. to change the size and the color of the text field, and 
+        3. to remove a text field
+        */
+
+        /**
+        * add a text field at the end of the body element 
+        */
+        function addTextField() {
+            // create a unique identifier for the new text field
+            let texts = document.getElementsByTagName('input');
+            let id = 'text' + texts.length;
+            // create a text field and set its id
+            let text = document.createElement('input');
+            text.type = 'text';
+            text.id = id;
+
+            // create a div and add the textfield to the div
+            let div = document.createElement('div');
+            div.appendChild(text);
+
+            // add the div to the body element
+            document.body.appendChild(div);
+        }
+
+        // change the field size of all text field elements
+        function changefieldSize() {
+            // get an array of all text field elements
+            let texts = document.getElementsByTagName('input');
+            if (texts.length > 0 ) {
+                // get the size of the first element
+                let size = texts[0].size;
+                // alert(size);
+                // increment the size
+                if (++size > 30 ) {
+                    alert(size);
+                    size = 5;                    
+                }
+                // change the size of all text field elements
+                for (let theSize = 0; theSize < texts.length; theSize++) {
+                    let text = texts[theSize];
+                    text.size = size;
+                }
+            }
+        }
+
+        /* chooseColor function returns a pseudo random integer in the range 10, 
+        list.length*/
+        function choose(list) {
+            let index = Math.floor(Math.random() * list.length);
+            return index;
+        }
+
+        // change the color of the text field element
+        function changeColor() {
+            // create an array of colors
+            let colors = [
+                'black', 'gray', 'brown', 'blue', 'purple', 'red',
+                'green', 'yellow', 'orange', 'fuchsia', 'white'
+            ];
+            // get an array of all text field eleemnts
+            let texts = document.getElementsByTagName('input');
+            if (texts.length > 0) {
+                // chose a background color and a foreground color
+                let index = choose(colors);
+                let opposite = colors.length - index - 1;
+                let background = colors[index];
+                let foreground = colors[opposite];
+                // choose a text field
+                let text = texts[choose(texts)];
+                // change the element's color
+                text.style.color = foreground;
+                text.style.backgroundColor = background;
+                text.value = foreground + ' on' + background;
+
+            }
+        }
+        
+        // RemoveTextField function
+        function RemoveTextField() {
+            // get an array of all text field eleemnts
+            let texts = document.getElementsByTagName('input');
+            if (texts.length > 0 ) {
+                // choose a text field
+                let index = choose(texts);
+                let text = texts[index];
+                // get the text field's parent
+                let div = text.parentElement;
+                // remove the parent and child text field
+                document.body.removeChild(div);
+                alert(texts.length);
+                // re-number the id's of the remaing text field elements
+                for (let theIndex = index; theIndex < texts.length; theIndex++) {
+                    let id = 'text' + theIndex;
+                    texts[theIndex].id = id;
+                }
+
+            }
+        }
+    </script>
+    <title>DOM createElement</title>
+</head>
+<body>
+    <form id="dom_form" action="#" method="GET" >
+        <button type="button" id="btnTextbox" onclick="addTextField();">
+        Add a TextBox</button>
+        <br /><br />
+        <button type="button" id="btnFiledSize" onclick="changefieldSize();">
+            Change Field Size</button>
+            <br /><br />
+        <button type="button" id="btnFieldSizeColor" onclick="changeColor();">
+        Change the color</button>
+        <br /><br />
+        <button type="button" id="btnRemoveFiledSize" onclick="RemoveTextField();">
+            Remove a TextBox</button>
+            <br /><br />
+    </form>
+
+</body>
+</html>

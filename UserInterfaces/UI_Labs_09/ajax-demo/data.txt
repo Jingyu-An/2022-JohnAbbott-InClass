@@ -1,0 +1,6 @@
+<figure>
+    <img src="images/bird_02.jpg" alt="Beautiful birds in the forest" title="Beautiful birds in the forest" width="200" height="130" />
+    <figcaption>Beautiful birds in the forest"</figcaption>
+</figure>
+
+This text was fetched from the server with AJAX on August 11, 2022

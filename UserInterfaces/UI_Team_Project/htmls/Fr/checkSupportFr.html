@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Submit | GentleLemur</title>
+    <meta name="description" content="World Best Pet Bed Product">
+    <meta name="author" content="GentleLemur">
+    <!-- Mobile Specific Metas –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+    <!-- FONT –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <!-- CSS  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="../../styles/main.css" rel="stylesheet"/>
+    <link rel="stylesheet" media="(max-width: 1024px)" href="../../styles/tablet.css">
+    <link rel="stylesheet" media="(max-width: 768px)" href="../../styles/mobile.css">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../../styles/styles.css" rel="stylesheet"/>
+
+    <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="images/png" href="../../images/favicon.png"/>
+
+    <!-- Scripts –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="../../scripts/main.js" defer></script>
+    <script src="../../scripts/includeHTMLs.js"></script>
+    <script src="../../scripts/scripts.js" defer></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script>
+        const getLocalStorage = () => {
+            if (typeof(Storage) !== "undefined") {
+                let name = document.getElementById("supportName");
+                let email = document.getElementById("supportEmail");
+                let phone = document.getElementById("supportPhone");
+                let title = document.getElementById("supportTitle");
+                let description = document.getElementById("supportDescription");
+
+                name.innerHTML = localStorage.getItem("name");
+                email.innerHTML = localStorage.getItem("email");
+                phone.innerHTML = localStorage.getItem("phone");
+                title.innerHTML = localStorage.getItem("title");
+                description.innerHTML = localStorage.getItem("description");
+
+            } else {
+                console.log("Storage is not working");
+            }
+        }
+    </script>
+</head>
+<body onload="getLocalStorage();">
+    <!--HEADER-->
+    <div include-html="headerFr.html"></div>
+    <div id="body__container">
+        <section class="page-section" id="services">
+            <ul>
+                <li>
+                    <h5>First Name</h5>
+                    <div id="supportName"></div>
+                </li>
+
+                <li>
+                    <h5>E-mail</h5>
+                    <div id="supportEmail"></div>
+                </li>
+
+                <li>
+                    <h5>Phone Number</h5>
+                    <div id="supportPhone"></div>
+                </li>
+
+                <li>
+                    <h5>Title</h5>
+                    <div id="supportTitle"></div>
+                </li>
+
+                <li>
+                    <h5>Description</h5>
+                    <div id="supportDescription"></div>
+                </li>
+            </ul>
+            <div class="btnForm">
+                <button class="btn btn-lg btn-success btn-block" onclick="location.href='completeFr.html'">SUBMIT</button>
+                <button class="btn btn-lg btn-success btn-block" onclick="location.href='support.html'">CANCEL</button>
+            </div>
+        </section>
+    </div>
+    <!--FOOTER-->
+    <div include-html="footerFr.html"></div>
+    <script>
+        includeHTML();
+    </script>
+</body>
+</html>

@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Submit | GentleLemur</title>
+    <meta name="description" content="World Best Pet Bed Product">
+    <meta name="author" content="GentleLemur">
+    <!-- Mobile Specific Metas –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+    <!-- FONT –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <!-- CSS  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="../../styles/main.css" rel="stylesheet"/>
+    <link rel="stylesheet" media="(max-width: 1024px)" href="../../styles/tablet.css">
+    <link rel="stylesheet" media="(max-width: 768px)" href="../../styles/mobile.css">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../../styles/styles.css" rel="stylesheet"/>
+
+    <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="images/png" href="../../images/favicon.png"/>
+
+    <!-- Scripts –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="../../scripts/main.js" defer></script>
+    <script src="../../scripts/includeHTMLs.js"></script>
+    <script src="../../scripts/scripts.js" defer></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script>
+        const getLocalStorage = () => {
+            if (typeof(Storage) !== "undefined") {
+                let firstName = document.getElementById("completeFirstName");
+                let lastName = document.getElementById("completeLastName");
+                let email = document.getElementById("completeEmail");
+                let phone = document.getElementById("completePhone");
+                let city = document.getElementById("completeCity");
+                let jobCategory = document.getElementById("completeJobCategory");
+                let jobType = document.getElementById("completeJobType");
+                let cvFile = document.getElementById("completeCV");
+                let workPlace = document.getElementById("completeWorkplace");
+                let language = document.getElementById("completeLanguage");
+
+                firstName.innerHTML = localStorage.getItem("first_name");
+                lastName.innerHTML = localStorage.getItem("last_name");
+                email.innerHTML = localStorage.getItem("email");
+                phone.innerHTML = localStorage.getItem("phone");
+                city.innerHTML = localStorage.getItem("city");
+                jobCategory.innerHTML = localStorage.getItem("jobCategory");
+                jobType.innerHTML = localStorage.getItem("jobType");
+
+                if (localStorage.getItem("workTypeOnsite") === 'true' && localStorage.getItem("workTypeRemote") === 'true' ) {
+                    workPlace.innerHTML = "Hybrid"
+                } else if (localStorage.getItem("workTypeOnsite") === 'true') {
+                    workPlace.innerHTML = "On-Site"
+                } else if (localStorage.getItem("workTypeRemote") === 'true') {
+                    workPlace.innerHTML = "Remote"
+                } else {
+                    workPlace.innerHTML = "Need Check"
+                }
+
+                if (localStorage.getItem("languageEn") === 'true' && localStorage.getItem("languageFr") === 'true' ) {
+                    language.innerHTML = "Bilingual"
+                } else if (localStorage.getItem("languageEn") === 'true') {
+                    language.innerHTML = "English"
+                } else if (localStorage.getItem("languageFr") === 'true') {
+                    language.innerHTML = "French"
+                } else {
+                    language.innerHTML = "Need Check"
+                }
+
+                if (localStorage.getItem("cvFile") !== '.undefined')
+                    cvFile.innerHTML = localStorage.getItem("cvFile");
+                else
+                    cvFile.innerHTML = 'N/A'
+
+            } else {
+                console.log("Storage is not working");
+            }
+        }
+    </script>
+</head>
+<body onload="getLocalStorage();">
+    <!--HEADER-->
+    <div include-html="headerFr.html"></div>
+    <div id="body__container">
+        <section class="page-section" id="services">
+            <ul>
+                <li>
+                    <h5>First Name</h5>
+                    <div id="completeFirstName"></div>
+                </li>
+
+                <li>
+                    <h5>Last Name</h5>
+                    <div id="completeLastName"></div>
+                </li>
+
+                <li>
+                    <h5>E-mail</h5>
+                    <div id="completeEmail"></div>
+                </li>
+
+                <li>
+                    <h5>Phone Number</h5>
+                    <div id="completePhone"></div>
+                </li>
+
+                <li>
+                    <h5>City</h5>
+                    <div id="completeCity"></div>
+                </li>
+
+                <li>
+                    <h5>Job Category</h5>
+                    <div id="completeJobCategory"></div>
+                </li>
+
+                <li>
+                    <h5>Job Type</h5>
+                    <div id="completeJobType"></div>
+                </li>
+
+                <li>
+                    <h5>Workplace</h5>
+                    <div id="completeWorkplace"></div>
+                </li>
+
+                <li>
+                    <h5>Language</h5>
+                    <div id="completeLanguage"></div>
+                </li>
+
+                <li>
+                    <h5>CV File</h5>
+                    <div id="completeCV"></div>
+                </li>
+            </ul>
+            <div class="btnForm">
+                <button class="btn btn-lg btn-success btn-block" onclick="location.href='completeFr.html'">SUBMIT</button>
+                <button class="btn btn-lg btn-success btn-block" onclick="location.href='careerFr.html'">CANCEL</button>
+            </div>
+        </section>
+    </div>
+    <!--FOOTER-->
+    <div include-html="footerFr.html"></div>
+    <script>
+        includeHTML();
+    </script>
+</body>
+</html>

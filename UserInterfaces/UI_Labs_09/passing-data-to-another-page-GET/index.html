@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>passing-data-to-another-page-GET</title>
+    <link rel="stylesheet" href="styles/primitive.css" />
+    <script src="scripts/index.js"></script>
+</head>
+
+<body>
+    <div id="container" class="small-container">
+        <h1>Form Subscription</h1>
+        <form action="result.html" method="GET">
+            <label for="lastname">Last Name</label>
+            <input type="text" name="firstname" id="firstname" />
+            <label for="firstname">First Name</label>
+            <input type="text" name="lastname" id="lastname" />
+            <input type="submit" value="Submit" onclick="handleSubmit();" />
+        </form>
+    </div>
+</body>
+
+</html>

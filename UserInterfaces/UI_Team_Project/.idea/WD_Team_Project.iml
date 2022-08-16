@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="Assign_01_UI_JS_DataFiles_August_2022" />
+    <orderEntry type="module" module-name="Chamberlain_Calendar_Data_v1_2022" />
+    <orderEntry type="module" module-name="Countdown_Clock_Data_2022" />
+    <orderEntry type="module" module-name="HandsOnProject_01_data" />
+    <orderEntry type="module" module-name="HandsOnProject_02_data" />
+    <orderEntry type="module" module-name="MidTest" />
+    <orderEntry type="module" module-name="UI_Labs_01" />
+    <orderEntry type="module" module-name="UI_Labs_02" />
+    <orderEntry type="module" module-name="UI_Labs_03" />
+    <orderEntry type="module" module-name="UI_Labs_04" />
+    <orderEntry type="module" module-name="UI_Labs_05" />
+    <orderEntry type="module" module-name="UI_Labs_06" />
+    <orderEntry type="module" module-name="UI_Labs_07" />
+  </component>
+</module>

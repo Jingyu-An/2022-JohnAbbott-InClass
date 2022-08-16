@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Career | GentleLemur</title>
+    <meta name="description" content="World Best Pet Bed Product">
+    <meta name="author" content="GentleLemur">
+    <!-- Mobile Specific Metas –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=2, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+    <!-- FONT –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <!-- CSS  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="../../styles/main.css" rel="stylesheet"/>
+    <link rel="stylesheet" media="(max-width: 1025px)" href="../../styles/tablet.css">
+    <link rel="stylesheet" media="(max-width: 769px)" href="../../styles/mobile.css">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../../styles/styles.css" rel="stylesheet"/>
+
+    <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="images/png" href="../../images/favicon.png"/>
+
+    <!-- Scripts –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="../../scripts/main.js" defer></script>
+    <script src="../../scripts/includeHTMLs.js"></script>
+    <script src="../../scripts/scripts.js" defer></script>
+    <script src="../../scripts/validation.js" defer></script>
+    <script
+            src="https://code.jquery.com/jquery-3.4.1.min.js"
+            integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+            crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        const setLocalStorage = () => {
+            if (typeof(Storage) !== "undefined") {
+                let firstName = document.getElementById("first_name").value;
+                let lastName = document.getElementById("last_name").value;
+                let email = document.getElementById("email").value;
+                let phone = document.getElementById("phone").value;
+                let city = document.getElementById("citySelect").value;
+                let jobCategory = document.getElementById("jobCategorySelect").value;
+                let jobType = document.getElementById("jobTypeSelect").value;
+                let workspaceRemote = document.getElementById("workTypeRemote").checked;
+                let workspaceOnsite = document.getElementById("workTypeOnsite").checked;
+                let languageEn = document.getElementById("languageEn").checked;
+                let languageFr = document.getElementById("languageFn").checked;
+
+                let cvFile = document.getElementById("formFile");
+                let fileName;
+                {
+                    let filePath = cvFile.value;
+                    let filePathSplit = filePath.split("\\");
+                    let filePathLength = filePathSplit.length;
+                    let fileNameSplit = filePathSplit[filePathLength-1].split('.');
+                    fileName = fileNameSplit[0] + '.' + fileNameSplit[1];
+                }
+
+                localStorage.setItem("first_name", firstName);
+                localStorage.setItem("last_name", lastName);
+                localStorage.setItem("email", email);
+                localStorage.setItem("phone", phone);
+                localStorage.setItem("city", city);
+                localStorage.setItem("jobCategory", jobCategory);
+                localStorage.setItem("jobType", jobType);
+                localStorage.setItem("cvFile", fileName);
+                localStorage.setItem("workTypeRemote", workspaceRemote);
+                localStorage.setItem("workTypeOnsite", workspaceOnsite);
+                localStorage.setItem("languageEn", languageEn);
+                localStorage.setItem("languageFr", languageFr);
+            } else {
+                console.log("Storage is not working");
+            }
+        }
+    </script>
+</head>
+<body>
+    <!--HEADER-->
+    <div include-html="header.html"></div>
+
+    <!-- Body -->
+    <div id="body__container">
+        <form class="support_container" onsubmit="return careerValidation()" action="checkCareer.html">
+            <div class="panel panel-default" style="margin: 20px">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Career</h2>
+
+                </div>
+                <div class="panel-body">
+
+                    <ul>
+                        <li class="form-inline ">
+                            <label for="first_name">First Name</label>
+                            <input type="text" class="form-control" placeholder="First Name" id="first_name">
+                        </li>
+                        <li class="form-inline">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" class="form-control" placeholder="Last Name" id="last_name">
+                        </li>
+                        <li class="form-inline">
+                            <label for="email">E-mail</label>
+                            <input type="email" class="form-control" placeholder="E-Mail Address" id="email">
+
+                        </li>
+                        <li class="form-inline">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" class="form-control" placeholder="Enter phone number" id="phone">
+                        </li>
+                        <li class="form-inline">
+                            <label>CITY</label>
+                            <label style="width: 100%">
+                                <select ng-model='discussionsSelect' id="citySelect" class='form-control'>
+                                    <option value="" disabled selected>Choose City</option>
+                                    <option value="Vancouver">Vancouver, BC</option>
+                                    <option value="Montreal">Montreal, QC</option>
+                                    <option value="Ottawa">Ottawa, ON</option>
+                                    <option value="Toronto">Toronto, ON</option>
+                                </select>
+                            </label>
+                        </li>
+
+                        <li class="form-inline">
+                            <label>Job Category</label>
+                            <label style="width: 100%">
+                                <select ng-model='discussionsSelect' id="jobCategorySelect" class='form-control'>
+                                    <option value="" disabled selected>Choose Job Category</option>
+                                    <option value="Software Development">Software Development</option>
+                                    <option value="Design">Design</option>
+                                    <option value="Marketing">Marketing</option>
+                                    <option value="Customer Service">Customer Service</option>
+                                </select>
+                            </label>
+                        </li>
+
+                        <li class="form-inline">
+                            <label>Job Type</label>
+                            <label style="width: 100%">
+                                <select ng-model='discussionsSelect' id="jobTypeSelect" class='form-control'>
+                                    <option value="" disabled selected>Choose Job Type</option>
+                                    <option value="Full Time">Full Time</option>
+                                    <option value="Part Time">Part Time</option>
+                                </select>
+                            </label>
+                        </li>
+                        <li class="form-inline">
+                            <label for="formFile" class="form-label">CV File</label>
+                            <input class="form-control" type="file" id="formFile">
+                        </li>
+                        <li class="form-inline">
+                            <form>
+                                <div>
+                                    <label>Workplace</label>
+                                    <label for="workTypeRemote" style="cursor: pointer; width:auto">
+                                        <input type="checkbox" name="workPlace[]" value="Remote" id="workTypeRemote"> Remote </label>
+                                    <label for="workTypeOnsite" style="cursor: pointer; width:auto">
+                                        <input type="checkbox" name="workPlace[]" value="onsite" id="workTypeOnsite"> On-Site </label>
+                                </div>
+                            </form>
+                        </li>
+
+                        <li class="form-inline">
+                            <form>
+                                <div>
+                                    <label>Language</label>
+                                    <label for="languageEn" style="cursor: pointer; width:auto">
+                                        <input type="checkbox" name="language[]" value="English" id="languageEn"> English </label>
+                                    <label for="languageFn" style="cursor: pointer; width:auto">
+                                        <input type="checkbox" name="language[]" value="French" id="languageFn"> French </label>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+
+                    <div class="btnForm">
+                        <button type="submit" class="btn btn-lg btn-success btn-block" onclick="setLocalStorage()">NEXT</button>
+                        <button class="btn btn-lg btn-success btn-block" formaction="career.html">CLEAR</button>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+    </div>
+
+    <!--FOOTER-->
+    <div include-html="footer.html"></div>
+
+    <script>
+        includeHTML();
+    </script>
+</body>
+</html>

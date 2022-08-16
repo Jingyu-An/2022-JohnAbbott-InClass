@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index | GentleLemur</title>
+    <meta name="description" content="World Best Pet Bed Product">
+    <meta name="author" content="GentleLemur">
+
+    <style>
+        .background-image {
+            position: relative;
+            left: 0;
+            right: 0;
+
+            background-image: url("https://gentlelemur.speedgabia.com/petbedCA/001_1.jpg");
+            height: 100vh;
+
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            filter: blur(20px);
+        }
+
+        .lang-button {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate( -50%, -50% );
+
+            border: 1px solid;
+            border-radius: 20px;
+            text-align: center;
+            display: inline-block;
+            padding: 50px 100px;
+        }
+
+        .lang-button img {
+            width: 100px;
+        }
+
+        input[type='button'] {
+            background: darkblue;
+            color: white;
+            border-radius: 10px;
+            border: none;
+            margin: 5px;
+            padding: 10px 20px;
+        }
+
+        .button:hover {
+            background-color: deepskyblue;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="background-image"></div>
+    <div class="lang-button">
+        <img src="images/favicon.png" alt="">
+        <h2> GentleLemur</h2>
+        <input class="button" type="button" value="English" onclick="location.href='htmls/En/indexEn.html'">
+        <input class="button" type="button" value="Français" onclick="location.href='htmls/Fr/indexFr.html'">
+    </div>
+</body>
+</html>

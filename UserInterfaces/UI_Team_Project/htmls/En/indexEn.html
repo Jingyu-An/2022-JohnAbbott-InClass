@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index English | GentleLemur</title>
+    <meta name="description" content="World Best Pet Bed Product">
+    <meta name="author" content="GentleLemur">
+    <!-- Mobile Specific Metas –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, user-scalable=no, maximum-scale=1, minimum-scale=1">
+
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+
+    <!-- FONT –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+
+    <!-- CSS  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="../../styles/main.css" rel="stylesheet"/>
+    <link rel="stylesheet" media="(max-width: 1024px)" href="../../styles/tablet.css">
+    <link rel="stylesheet" media="(max-width: 768px)" href="../../styles/mobile.css">
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="../../styles/styles.css" rel="stylesheet"/>
+
+    <!-- Favicon –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="images/png" href="../../images/favicon.png"/>
+
+    <!-- Scripts –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <script src="../../scripts/main.js" defer></script>
+    <script src="../../scripts/includeHTMLs.js"></script>
+    <script src="../../scripts/scripts.js" defer></script>
+    <script src="../../scripts/validation.js" defer></script>
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!-- * *                               SB Forms JS                               * *-->
+    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+    <!--    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>-->
+</head>
+<body onload="window.setInterval('changeBG()',3000)">
+    <!--HEADER-->
+    <div include-html="header.html"></div>
+
+    <!-- BODY -->
+    <div id="body__container">
+        <!--VISUAL-->
+        <section class="section section--visual" id="visual">
+            <script>
+                // declare a default variable
+                let currentBG = 'background1';
+                let target = document.getElementById('visual');
+                // create changeSign function
+                function changeBG() {
+                    // check the status of the currentSign
+                    if (currentBG === 'background1') {
+                        // switch images
+                        target.style.backgroundImage = 'url("https://gentlelemur.speedgabia.com/petbedCA/mainbg_2.jpeg")';
+
+                        // change the current sign value to on
+                        currentBG = 'background2';
+                    } else if(currentBG === 'background2'){
+                        // switch images
+                        target.style.backgroundImage = 'url("https://gentlelemur.speedgabia.com/petbedCA/mainbg_3.png")';
+                        // change the current sign value to on
+                        currentBG = 'background3';
+                    }else if(currentBG === 'background3'){
+                        // switch images
+                        target.style.backgroundImage = 'url("https://gentlelemur.speedgabia.com/petbedCA/mainbg_4.png")';
+                        // change the current sign value to on
+                        currentBG = 'background4';
+                    }else{
+                        currentBG = 'background1';
+                        target.style.backgroundImage = 'url("https://gentlelemur.speedgabia.com/petbedCA/bg_pets.png")';
+                    }
+
+                }
+            </script>
+            <div class="inner">
+                <div class="summary">
+                    <h2 class="summary__title">No More Discomfort for Them,
+                        <br>No More Messes for You. </h2>
+                    <p class="summary__description">
+                        The Gentle Lemur Pet Bed is the only ultra-dense memory foam pet bed on the market that is truly
+                        washable inside and out. The bed is cleaned and dried almost instantly. <br>
+                    </p>
+                </div>
+
+                <form id="sign-form" onsubmit="return subscribeValidation()">
+                    <ul>
+                        <li><label style="width: 100%">
+                            <input class="input--text" id="fullName" type="text" placeholder="Pick a username">
+                        </label></li>
+                        <li><label style="width: 100%">
+                            <input class="input--text" id="email" type="email" placeholder="Your email address" >
+                        </label></li>
+                        <li>
+                            <button class="btn btn-subscribe" type="submit" id="submitButton">Subscribe to our newsletter</button>
+                            <p class="caption">By clicking "Subscribe to our newsletter", you agree to our terms of service
+                                and privacy policy.
+                                We'll occasionally send you account related emails.</p>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </section>
+
+        <!--FEATURE-->
+        <section class="section section--feature">
+
+            <div class="summary">
+                <h2 class="summary__title">Ultra Comfort That Cleans Instantly</h2>
+                <p class="summary__description">The unique nest-like 3D structure is orthopedically engineered to cater to
+                    dogs and cats natural behaviors and brings unprecedented comfort to them. </p>
+            </div>
+
+            <div class="video">
+                <div class="video-ratio">
+                    <iframe width="764" height="430" src="https://www.youtube.com/embed/7Yluja0Zlsk"
+                            title="Gentle Lemur Pet Bed"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!--FOOTER-->
+    <div include-html="footer.html"></div>
+    <script>
+        includeHTML();
+    </script>
+</body>
