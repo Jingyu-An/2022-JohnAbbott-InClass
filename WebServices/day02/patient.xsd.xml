@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pat:patient xmlns:pat="http://www.jingyu.org/Patient">
+  <pat:id>3</pat:id>
+  <pat:name>Jingyu</pat:name>
+  <pat:age>44</pat:age>
+  <pat:dob>2022-01-01</pat:dob>
+  <pat:email>asdf@jingyu.org</pat:email>
+  <pat:gender>male</pat:gender>
+  <pat:phone>11111111</pat:phone>
+</pat:patient>
