@@ -1,0 +1,30 @@
+{
+  "users": [
+    {
+      "firstName": "Graham",
+      "lastName": "Bell",
+      "age": 30,
+      "hobbies": [ "reading", "writing" ],
+      "friends": [
+        {
+          "firatName": "Isaac",
+          "lastName": "Newton"
+        }
+      ] 
+    },
+    {
+      "firstName": "Isaac",
+      "lastName": "Newton",
+      "age": 40
+    }
+  ],
+  "subjects": [
+    {
+      "name": "automation",
+      "id": 1
+    },
+    {
+      "name": "Jason",
+      "id": 2
+    }]
+}

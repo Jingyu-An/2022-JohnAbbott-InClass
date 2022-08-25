@@ -1,0 +1,20 @@
+PUT http://localhost:8080/restws/services/patientservice/patients/
+Content-Type: application/xml;
+
+<Patient>
+    <id>124</id>
+    <name>SAAAAAAAAAAAmmm</name>
+</Patient>
+
+###
+
+POST http://localhost:8080/restws/services/patientservice/patients/
+Content-Type: application/xml;
+
+<Patient>
+    <name>Sam</name>
+</Patient>
+
+###
+
+DELETE http://localhost:8080/restws/services/patientservice/patients/123
