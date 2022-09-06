@@ -44,7 +44,7 @@ public class BookApiControllerImpl implements BookApiController {
             book.add(new Book());
             book.get(i).setId(currentId++);
             book.get(i).setTitle(BookTitle.get(i));
-            ;
+
             books.put(book.get(i).getId(), book.get(i));
         }
     }
