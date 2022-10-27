@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+    <title>Dice Game</title>
+  </head>
+  <body>
+    <div id="main">
+      <section class="player player1">
+        <h2 class="name"> {{ player1 }} {{ active1 }} <br> {{ winner1 }}</h2>
+        <p class="score"> {{ totalScore1 }}</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score">{{ score1 }}</p>
+        </div>
+      </section>
+      <section class="player player2">
+        <h2 class="name">{{ player2 }} {{ active2 }} <br> {{ winner2 }}</h2>
+        <p class="score">{{ totalScore2 }}</p>
+        <div class="current">
+          <p class="current-label">Current</p>
+          <p class="current-score">{{ score2 }}</p>
+        </div>
+      </section>
+      <img src="{{ url_for('static', filename=image_file) }}" alt="Playing dice" class="dice"/>
+      <button class="btn btn--new"> <a href="playerName"> 🆕 New game </a></button>
+      <button class="btn btn--roll"> <a href="playing"> 🎲🎲 <br>Roll dice </a></button>
+      <button class="btn btn--hold"> <a href="hold">🔃<br>Hold </a></button>
+    </div>
+  </body>
+</html>

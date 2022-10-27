@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+  </head>
+  <body>
+    <div style="border: 1px solid black; margin: 20px auto; padding: 10px; max-width: 500px">
+      <form action="converterDec" method='POST'>
+        Input the dec Number: <input type='number' name='decNumber' placeholder="{{ decNumber }}">
+        <button type='submit' class="btn">Dec To Bin</button>
+      </form>
+      <div>
+        Results : <span style="border: 1px solid black; padding-right: 150px">{{ decToBin }} </span> <br>
+      </div>
+    </div>
+    <div style="border: 1px solid black; margin: 20px auto; padding: 10px; max-width: 500px">
+      <form action="converterBin" method='POST'>
+        Input the bin Number: <input type='number' name='binNumber' placeholder="{{ binNumber }}">
+        <button type='submit' class="btn">Bin To Dec</button>
+      </form>
+      <div>
+        Results : <span style="border: 1px solid black; padding-right: 150px">{{ binToDec }} </span> <br>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fact</title>
+  </head>
+  <body>
+    <div style="border: 1px solid black; margin: 20px auto; padding: 10px; max-width: 400px">
+      <form action="fact" method='POST'>
+        Number: <input type='number' name='number' placeholder="{{number}}">
+        <input type='submit' value='FACT'>
+      </form>
+      <div>
+        Results : <span style="border: 1px solid black; padding-right: 150px">{{ fact }} </span> <br>
+        Test : {{ test }}
+      </div>
+    </div>
+  </body>
+</html>

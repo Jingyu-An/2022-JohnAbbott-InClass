@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime</title>
+  </head>
+  <body>
+    <div style="border: 1px solid black; margin: 20px auto; padding: 10px; max-width: 400px">
+      <h4 style="">Jingyu An / 2228416</h4>
+      <form action="prime" method='POST'>
+        First Number: <input type='number' name='firstNumber' placeholder="{{ firstNumber }}"> <br>
+        Second Number: <input type='number' name='secondNumber' placeholder="{{ secondNumber }}"> <br>
+        <input type='submit' value='CALCULATE'>
+      </form>
+      <div>
+        Output : <span style="border: 1px solid black; padding-right: 150px">{{ primeNumbers }} </span> <br>
+      </div>
+      <div>
+        <p> {{ error }}</p>
+      </div>
+    </div>
+  
+  </body>
+</html>

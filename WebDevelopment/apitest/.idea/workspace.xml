@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bd0f5a1c-4b10-4b27-a9f8-68557a845511" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../dbAccess/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/FormQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/classEx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/classEx.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/createtable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/dbAccess.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/dbcreate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/insert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/insertForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/login/authentication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/login/connection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/login/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/querytb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/registration/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/registration/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/registration/dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/registration/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/registration/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/registration/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/registration/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/registration/insert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/registration/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/registration/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/registration/registration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dbAccess/registration/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileHandling/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileHandling/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileHandling/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileHandling/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileHandling/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileHandling/bowlers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileHandling/fileHandiling.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileHandling/fileHandling.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../fileHandling/person.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/blank.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/code01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/code02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/code03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/requirement.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/test.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/test01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/testFinal.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/user.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/usertxt.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../formHandling/formClass01.html" beforeDir="false" afterPath="$PROJECT_DIR$/../formHandling/formClass01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../formHandling/formClass01.php" beforeDir="false" afterPath="$PROJECT_DIR$/../formHandling/formClass01.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../formHandling/formValidation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../formHandling/formValidation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../test/test.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2F2IbjGxJxriTihYBmis2pFw9DI" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "settings.editor.selected.configurable": "configurable.group.appearance"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd0f5a1c-4b10-4b27-a9f8-68557a845511" name="Changes" comment="" />
+      <created>1663683825985</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663683825985</updated>
+      <workItem from="1663683827153" duration="3000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

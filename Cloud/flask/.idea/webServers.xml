@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1be90b4d-86c1-4239-99c2-f170dfcf870f" name="MyUnuntu" url="http://35.183.106.218">
+        <fileTransfer accessType="SFTP" host="ec2-35-183-106-218.ca-central-1.compute.amazonaws.com" port="22" sshConfigId="315df76a-8557-409e-83b6-d01f37ee4412" sshConfig="ubuntu@ec2-35-183-106-218.ca-central-1.compute.amazonaws.com:22 key" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

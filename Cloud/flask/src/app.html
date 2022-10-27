@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For loop in Flask</title>
+  </head>
+  <body>
+    <ol>
+      <!-- For loop logic of jinja template -->
+    {%for i in range(0, len)%}
+      <li>{{Pokemons[i]}}</li>
+    {%endfor%}
+  {% for entry in news %}
+      <div>{{entry.subject}}</div>
+      <button id="button_{{entry.id}}" class="clickme">Click Me!</button>
+      <div id="description_button_{{entry.id}}">{{entry.description}}</div>
+      {% endfor %}
+    </ol>
+  </body>
+</html>

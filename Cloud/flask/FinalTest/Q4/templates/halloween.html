@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halloween Candy</title>
+  </head>
+  <body>
+    <div style="border: 1px solid black; margin: 20px auto; padding: 10px; max-width: 60%">
+      <h4 style="">Jingyu An / 2228416</h4>
+      <table style="margin: 0 auto">
+        <form action="halloween" method='POST'>
+          <tr>
+            <td style="padding: 10px">Chocolate boxes</td>
+            <td><input type='number' name='numberBoxes' placeholder="{{ numberBoxes }}"></td>
+            <td style="padding: 10px"><input type='submit' value='CALCULATE'></td>
+          </tr>
+        </form>
+        <tr>
+          <td rowspan="3" style="vertical-align: top; padding: 10px">Output :</td>
+          <td>Total cost without discount : ${{ totalNoDis }}</td>
+          <td style="padding: 10px; text-align: right">({{ numberBoxes }} * 11.99)</td>
+        </tr>
+        <tr>
+          <td>Discount of {{ discount }}% : {{ discountCost }}</td>
+          <td style="padding: 10px; text-align: right">({{totalNoDis}} * 0.{{discount}})</td>
+        </tr>
+        <tr>
+          <td>Total cost : ${{total}}</td>
+          <td style="padding: 10px; text-align: right">({{totalNoDis}} - {{discountCost}})</td>
+        </tr>
+      </table>
+    </div>
+  
+  </body>
+</html>

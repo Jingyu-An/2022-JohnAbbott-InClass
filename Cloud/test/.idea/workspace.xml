@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="15e9e41e-f1db-4707-9b68-e607ed2aa775" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../dicegame/dicegame.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dicegame/flaskapp/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dicegame/flaskapp/app.wsgi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dicegame/flaskapp/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dicegame/flaskapp/static/images/die1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dicegame/flaskapp/static/images/die2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dicegame/flaskapp/static/images/die3.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dicegame/flaskapp/static/images/die4.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dicegame/flaskapp/static/images/die5.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dicegame/flaskapp/static/images/die6.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dicegame/flaskapp/templates/dicegame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../dicegame/flaskapp/templates/playerName.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/.idea/sshConfigs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/.idea/webServers.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/FinalTest/Q3/subnetting.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/FinalTest/Q3/templates/subnetting.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/FinalTest/Q4/halloween.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/FinalTest/Q4/templates/halloween.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/FinalTest/Q5/prime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/FinalTest/Q5/templates/prime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/day02/converter.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/day02/fact.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/day02/prime.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/day02/templates/converter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/day02/templates/fact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/day02/templates/prime.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/flask.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/src/app.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/src/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/src/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../flask/src/templates/welcome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/die1.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/die2.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/die3.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/die4.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/die5.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/die6.bmp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/dicegame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/playerName.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/apitest/apitest.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/FormQuery.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/classEx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/classEx.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/createtable.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/dbAccess.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/dbcreate.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/index1.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/insert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/insertForm.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/login/authentication.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/login/connection.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/login/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/login/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/querytb.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/registration/auth.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/registration/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/registration/dashboard.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/registration/db.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/registration/delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/registration/edit.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/registration/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/registration/insert.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/registration/login.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/registration/logout.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/registration/registration.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/dbAccess/registration/view.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/fileHandling/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/fileHandling/.idea/intellij-javadocs-4.0.1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/fileHandling/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/fileHandling/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/fileHandling/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/fileHandling/bowlers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/fileHandling/fileHandiling.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/fileHandling/fileHandling.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/fileHandling/person.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/laravel-9-crud/laravel-9-crud.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/laravelproject/laravelproject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/test/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/test/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/test/blank.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/test/code01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/test/code02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/test/code03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/test/requirement.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/test/test.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/test/test01.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/test/testFinal.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/test/user.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/test/usertxt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebDevelopment/untitled/untitled.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WebDevelopment/formHandling/formClass01.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../WebDevelopment/formHandling/formClass01.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WebDevelopment/formHandling/formClass01.php" beforeDir="false" afterPath="$PROJECT_DIR$/../../WebDevelopment/formHandling/formClass01.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WebDevelopment/formHandling/formValidation.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../WebDevelopment/formHandling/formValidation.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WebDevelopment/test/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../WebDevelopment/test/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WebDevelopment/test/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../WebDevelopment/test/test.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2G5b6az5PsoBcncsyonZps29kpg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/Github/JohnAbbott/Cloud/flask",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Github\JohnAbbott\Cloud\test" />
+      <recent name="E:\Github\JohnAbbott\Cloud\test\templates" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Github\JohnAbbott\Cloud\test\static\css" />
+      <recent name="E:\Github\JohnAbbott\Cloud\test\static\images" />
+      <recent name="E:\Github\JohnAbbott\Cloud\test\style" />
+      <recent name="E:\Github\JohnAbbott\Cloud\test\templates" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="15e9e41e-f1db-4707-9b68-e607ed2aa775" name="Changes" comment="" />
+      <created>1665681217966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665681217966</updated>
+      <workItem from="1665681219135" duration="22953000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/test$app.coverage" NAME="app Coverage Results" MODIFIED="1665705893228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

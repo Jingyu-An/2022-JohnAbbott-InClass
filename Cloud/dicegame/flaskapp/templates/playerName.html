@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+    <title>Enter the player Name</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <div>
+      <form action="start" method="post" id="enterPlayers" class="">
+        <section class="player player1">
+          <h2 class="name"> Player 1 </h2>
+          <input class="current" type="text" name="player1" placeholder="{{ error1 }}"> <br>
+        </section>
+        <section class="player player2">
+          <h2 class="name"> Player 2 </h2>
+          <input class="current" type="text" name="player2" placeholder="{{ error2 }}"> <br>
+        </section>
+        <button class="btn" type="submit" style="top: 48%; border: 10px double black">Summit</button>
+      </form>
+      <p> {{ error }} </p>
+    </div>
+  </body>
+</html>

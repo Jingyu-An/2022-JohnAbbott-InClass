@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subnetting</title>
+    <style>
+      input[type="number"] {
+        width: 50px;
+        height: 30px;
+      }
+      span {
+        padding-right: 150px;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div style="border: 1px solid black; margin: 20px auto; padding: 10px; max-width: 50%">
+      <h4 style="">Jingyu An / 2228416</h4>
+      <form action="subnetting" method='POST'>
+        Input :
+        <input type='number' name='firstNumber' placeholder="{{ firstNumber }}"> .
+        <input type='number' name='secondNumber' placeholder="{{ secondNumber }}"> .
+        <input type='number' name='thirdNumber' placeholder="{{ thirdNumber }}"> .
+        <input type='number' name='fourthNumber' placeholder="{{ fourthNumber }}"> /
+        <input type='number' name='cidr' placeholder="{{ cidr }}">
+        <div style="text-align: center; padding: 20px">
+          <input type='submit' value='PRESS'>
+        </div>
+      </form>
+      <div>
+        Number of possible hosts : <span >{{ numberHosts }} </span> <br>
+        Number of possible servers : <span >{{ numberServers }} </span> <br>
+        Range of host IPv4 addresses : <span >{{ rangeIPv4 }} </span> <br>
+      </div>
+      <div>
+        <p> {{ error }}</p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig host="ec2-35-183-106-218.ca-central-1.compute.amazonaws.com" id="315df76a-8557-409e-83b6-d01f37ee4412" keyPath="E:\Johnabbott\Cloud\ubuntuAMIkey.ppk" port="22" nameFormat="DESCRIPTIVE" username="ubuntu" useOpenSSHConfig="true" />
+    </configs>
+  </component>
+</project>
