@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/html"
+      xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <meta charset="ISO-8859-1">
+    <title>STUDENT REGISTRATION</title>
+    <link rel="stylesheet" type="text/css" href="/webjars/bootstrap/css/bootstrap.min.css"/>
+    <script type="text/javascript" src="/webjars/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+    <style>
+      .error {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="text-center">
+        <h1>Student Registration Form by Jingyu An</h1>
+      </div>
+      <form th:action="@{/save}" th:object="${student}"
+            method="post" style="max-width: 800px; margin: 0 auto;">
+        <div class="m-3">
+          <div class="form-group row">
+            <label class="col-4 col-form-label">Name: </label>
+            <div class="col-8">
+              <input type="text" th:field="*{name}" class="form-control" placeholder="Enter full name"/>
+              <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}" class="error"></span>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-4 col-form-label">Password: </label>
+            <div class="col-8">
+              <input type="password" th:field="*{password}" class="form-control" minlength="8" maxlength="20"/>
+              <span th:if="${#fields.hasErrors('password')}" th:errors="*{password}" class="error"></span>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-4 col-form-label">Retype Password: </label>
+            <div class="col-8">
+              <input type="password" th:field="*{rePassword}" class="form-control" minlength="8" maxlength="20"/>
+              <span th:if="${#fields.hasErrors('rePassword')}" th:errors="*{rePassword}" class="error"></span>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-4 col-form-label">Phone Number: </label>
+            <div class="col-8">
+              <input type="tel" th:field="*{phone}" class="form-control" placeholder="43xxxxxx"/>
+              <span th:if="${#fields.hasErrors('phone')}" th:errors="*{phone}" class="error"></span>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-4 col-form-label">E-mail: </label>
+            <div class="col-8">
+              <input type="email" th:field="*{email}" class="form-control" placeholder="sample@exmaple.com"/>
+              <span th:if="${#fields.hasErrors('email')}" th:errors="*{email}" class="error"></span>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-4 col-form-label">Gender: </label>
+            <div class="col-8">
+              <span th:each="genderOption : ${genderList}">
+                <input type="radio" th:field="${student.gender}" th:value="${genderOption}">
+                <label th:for="${student.gender}" th:text="${genderOption}"></label>
+              </span>
+              <div th:if="${#fields.hasErrors('gender')}" th:errors="*{gender}" class="error"></div>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-4 col-form-label">Date Of Birth: </label>
+            <div class="col-8">
+              <input type="date" th:field="*{birthDate}" class="form-control"/>
+              <span th:if="${#fields.hasErrors('birthDate')}" th:errors="*{birthDate}" class="error"></span>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-4 col-form-label">Address: </label>
+            <div class="col-8">
+              <input type="text" th:field="*{address}" class="form-control" placeholder="Street:-  House:-  Road:-"/>
+              <span th:if="${#fields.hasErrors('address')}" th:errors="*{address}" class="error"></span>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-4 col-form-label"></label>
+            <div class="col-8">
+              <input type="text" th:field="*{addressAdd}" class="form-control"/>
+              <span th:if="${#fields.hasErrors('addressAdd')}" th:errors="*{addressAdd}" class="error"></span>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-4 col-form-label">Blood Group: </label>
+            <div class="col-8">
+              <select th:field="*{blood}" class="form-control">
+                <option value="">Select</option>
+                <option th:each="bloodOption : ${bloodList}" th:value="${bloodOption}"
+                        th:utext="${bloodOption}">
+                </option>
+              </select>
+              <span th:if="${#fields.hasErrors('blood')}" th:errors="*{blood}" class="error"></span>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-4 col-form-label">Department: </label>
+            <div class="col-8">
+              <span th:each="deparOption : ${departmentList}">
+                <input type="radio" th:field="${student.department}" th:value="${deparOption}">
+                <label th:for="${student.department}" th:text="${deparOption}"></label>
+              </span>
+              <div th:if="${#fields.hasErrors('department')}" th:errors="*{department}" class="error"></div>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label class="col-4 col-form-label">Course: </label>
+            <div class="col-8">
+              <span th:each="courseOption : ${courseList}">
+                <input type="checkbox" th:field="${student.course}" th:value="${courseOption}">
+                <label th:for="${student.course}" th:text="${courseOption}"></label>
+                &nbsp;
+              </span>
+              <div th:if="${#fields.hasErrors('course')}" th:errors="*{course}" class="error"></div>
+            </div>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary">Register</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
