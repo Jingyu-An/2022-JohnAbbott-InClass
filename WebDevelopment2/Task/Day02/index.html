@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="welcome.css">
+	<script src="welcome6.js"></script>
+	<script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+	<script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+	<script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+	<title>First React Page</title>
+</head>
+<body>
+<p id="main"></p>
+<p id="ticker"></p>
+<p id="counter"></p>
+<button onclick="changeColourAndCount()">Click Me</button>
+<div id="root"></div>
+<script type="text/babel">
+	const root = ReactDOM.createRoot(document.getElementById("root"));
+	
+	function Main() {
+		const [color, setColor] = React.useState("blue");
+		return (<div>
+					<DisplayMessage color={color}/>
+					<Clock time={new Date().toLocaleTimeString()}/>
+					<button onClick={() => setColor(toggle(color))}> Click me React
+					</button>
+				</div>
+		);
+	}
+	
+	function toggle(color) {
+		if (color === "blue") {
+			console.log("React Red!!")
+			return "red";
+		} else {
+			console.log("React Blue!!")
+			return "blue";
+		}
+	}
+	
+	function DisplayMessage(props) {
+		return <h1 style={{color: props.color}}>Hello React World</h1>;
+	}
+	
+	function Clock(props) {
+		return <p>React Clock: {props.time} </p>
+	}
+	
+	root.render( <Main />) // first load
+	setInterval(() => root.render( <Main />), 1000);
+</script>
+</body>
+</html>
