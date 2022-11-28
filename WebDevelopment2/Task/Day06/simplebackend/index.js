@@ -1,10 +1,10 @@
 require('dotenv').config();
 const mongoose = require('mongoose');
-const userModel = require('./Datebase/models')
+const userModel = require('./components/Datebase/models')
 
 const express = require('express');
 const bodyParser = require('body-parser');
-const cors = require('cors'); //cross-origin resource sharing
+const cors = require('cors');
 
 const app = express();
 const port = 3001; //Must be different from the port of the React app
@@ -12,7 +12,7 @@ const port = 3001; //Must be different from the port of the React app
 app.use(cors()); // https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS
 
 mongoose.connect("mongodb+srv://mongouser:" + process.env.MONGODB_PWD +
-  "@cluster0.zpqzfcw.mongodb.net/myFristDb?retryWrites=true&w=majority",
+  "@cluster0.zpqzfcw.mongodb.net/myFirstDb?retryWrites=true&w=majority",
   {
     useNewUrlParser   : true,
     useUnifiedTopology: true,
@@ -29,6 +29,11 @@ app.use(express.json()); // Allows express to read a request body
 // Configuring body parser middleware
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
+
+app.get("/users", async (req, res) => {
+  const users = await userModel.find();
+  res.send(users);
+})
 
 app.listen(port, () => {
   console.log(`Hello world app listening on port ${port}!`);
