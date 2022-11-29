@@ -1,12 +1,14 @@
 import React from 'react';
 
+import '../Button/Button.css'
+
 const DbData = () => {
   return (
-    <>
-      <button onClick={registerUserTemp}>
+    <div style={{textAlign: "center"}}>
+      <button className='button' onClick={registerUserTemp}>
         Register for Test
       </button>
-    </>
+    </div>
   );
 };
 

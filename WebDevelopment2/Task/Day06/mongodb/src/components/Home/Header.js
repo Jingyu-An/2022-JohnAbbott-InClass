@@ -3,6 +3,7 @@ import {LoggedInContext} from "../../App";
 import HomeButton from "../Button/HomeButton";
 import LogoutButton from "../Button/LogoutButton";
 
+import './Header.css'
 
 const Header = () => {
   const [isLoggedIn, setIsLoggedIn] = useContext(LoggedInContext);
@@ -12,10 +13,10 @@ const Header = () => {
   }
   
   return (
-    <div>
+    <div className='header'>
       {isLoggedIn ? "Welcome" : "Please login"}
-      <HomeButton />
       {isLoggedIn ? <LogoutButton onClick={logoutHandler} /> : ''}
+      <HomeButton />
     </div>
   );
 };

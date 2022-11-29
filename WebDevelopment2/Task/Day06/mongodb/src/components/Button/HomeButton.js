@@ -1,8 +1,10 @@
 import React from 'react';
 
+import './Button.css'
+
 const HomeButton = () => {
   return (
-    <button>
+    <button className='button'>
       Home
     </button>
   );

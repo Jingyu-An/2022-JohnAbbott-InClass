@@ -1,6 +1,8 @@
 import React, {useRef} from 'react';
-import PostLogin from "../Databse/REST/PostLogin";
 import {LoggedInContext} from "../../App";
+
+import '../Button/Button.css'
+import './Login.css'
 
 const LoginForm = () => {
   const usernameRef = useRef();
@@ -32,13 +34,15 @@ const LoginForm = () => {
   }
   
   return (
-    <form onSubmit={submitHandler}>
-      <label htmlFor='username'>Username</label>
-      <input id='username' type='text' ref={usernameRef} required/>
-      <label htmlFor='password'>Password</label>
-      <input id='password' type='password' ref={passwordRef} required/>
-      <button type='submit'>Login</button>
-    </form>
+    <div style={{textAlign: 'center', margin: '0.5rem'}}>
+      <form className='card' onSubmit={submitHandler}>
+        <label htmlFor='username'>Username</label>
+        <input id='username' type='text' ref={usernameRef} required/>
+        <label htmlFor='password'>Password</label>
+        <input id='password' type='password' ref={passwordRef} required/>
+        <button className='button' type='submit'>Login</button>
+      </form>
+    </div>
   );
 };
 
