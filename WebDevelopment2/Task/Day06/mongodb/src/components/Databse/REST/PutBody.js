@@ -6,7 +6,7 @@ const PutBody = () => {
       method: 'PUT',
       body: JSON.stringify({
         username: 'Jingyu',
-        password: '123'
+        password: '456'
       }),
       headers: {
         "content-type": "application/json;charset=utf-8",

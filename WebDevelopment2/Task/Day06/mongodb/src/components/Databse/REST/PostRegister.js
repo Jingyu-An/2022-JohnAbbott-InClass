@@ -1,10 +1,11 @@
 import React from 'react';
 
-const PostBody = (username, password) => {
+const PostRegister = (username, password) => {
   return (
-    fetch("http://localhost:3001/users", {
+    fetch("http://localhost:3001/users/register", {
       method : "POST",
       body   : JSON.stringify({
+        // id: Math.random().toString(),
         username: username,
         password: password,
       }),
@@ -17,4 +18,4 @@ const PostBody = (username, password) => {
   );
 };
 
-export default PostBody;
+export default PostRegister;

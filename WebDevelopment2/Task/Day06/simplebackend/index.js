@@ -36,7 +36,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
 // POST request
-app.post("user", async (req, res) => {
+app.post("/users", async (req, res) => {
   const username = req.body.username;
   const password = req.body.password;
   const user = {
@@ -54,7 +54,7 @@ app.get("/users", async (req, res) => {
   res.send(users);
 })
 /* An API get request using query parameters to /users?username=XXX */
-app.get("user", async (req, res) => {
+app.get("/user", async (req, res) => {
   const username = req.query.username;
   const user = await userModel.findOne({
     username: username,
@@ -70,7 +70,7 @@ app.get("/users/:username", async (req, res) => {
   res.send(user);
 });
 /* An API post request using body to get user /users/get */
-get.post("/users/get", async (req, res) => {
+app.post("/users/get", async (req, res) => {
   const username = req.body.username;
   const user = await userModel.findOne({
     username: username,
