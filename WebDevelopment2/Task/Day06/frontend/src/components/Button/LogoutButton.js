@@ -4,7 +4,7 @@ import './Button.css'
 
 const LogoutButton = (props) => {
   return (
-    <button className='button' onClick={props.onClick}>
+    <button className='button' style={{backgroundColor: 'red'}} onClick={props.onClick}>
       Log Out
     </button>
   );
